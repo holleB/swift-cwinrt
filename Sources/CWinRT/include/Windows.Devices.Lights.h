@@ -445,6 +445,9 @@ enum __x_ABI_CWindows_CDevices_CLights_CLampArrayKind
     __x_ABI_CWindows_CDevices_CLights_CLampArrayKind_Wearable = 8,
     __x_ABI_CWindows_CDevices_CLights_CLampArrayKind_Furniture = 9,
     __x_ABI_CWindows_CDevices_CLights_CLampArrayKind_Art = 10,
+    __x_ABI_CWindows_CDevices_CLights_CLampArrayKind_Headset = 11,
+    __x_ABI_CWindows_CDevices_CLights_CLampArrayKind_Microphone = 12,
+    __x_ABI_CWindows_CDevices_CLights_CLampArrayKind_Speaker = 13,
 };
 
 enum __x_ABI_CWindows_CDevices_CLights_CLampPurposes

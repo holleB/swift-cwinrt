@@ -213,24 +213,6 @@
 
 #endif // ____x_ABI_CWindows_CUI_CViewManagement_CIProjectionManagerStatics2_FWD_DEFINED__
 
-#ifndef ____x_ABI_CWindows_CUI_CViewManagement_CIStatusBar_FWD_DEFINED__
-#define ____x_ABI_CWindows_CUI_CViewManagement_CIStatusBar_FWD_DEFINED__
-    typedef interface __x_ABI_CWindows_CUI_CViewManagement_CIStatusBar __x_ABI_CWindows_CUI_CViewManagement_CIStatusBar;
-
-#endif // ____x_ABI_CWindows_CUI_CViewManagement_CIStatusBar_FWD_DEFINED__
-
-#ifndef ____x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator_FWD_DEFINED__
-#define ____x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator_FWD_DEFINED__
-    typedef interface __x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator __x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator;
-
-#endif // ____x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator_FWD_DEFINED__
-
-#ifndef ____x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStatics_FWD_DEFINED__
-#define ____x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStatics_FWD_DEFINED__
-    typedef interface __x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStatics __x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStatics;
-
-#endif // ____x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStatics_FWD_DEFINED__
-
 #ifndef ____x_ABI_CWindows_CUI_CViewManagement_CIUISettings_FWD_DEFINED__
 #define ____x_ABI_CWindows_CUI_CViewManagement_CIUISettings_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CUI_CViewManagement_CIUISettings __x_ABI_CWindows_CUI_CViewManagement_CIUISettings;
@@ -567,44 +549,6 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1_boolean __x_ABI_
     
     #endif // ____x_ABI_C__FIEventHandler_1_IInspectable_INTERFACE_DEFINED__
     
-#if !defined(____x_ABI_C__FIReference_1_double_INTERFACE_DEFINED__)
-    #define ____x_ABI_C__FIReference_1_double_INTERFACE_DEFINED__
-
-    typedef interface __x_ABI_C__FIReference_1_double __x_ABI_C__FIReference_1_double;
-
-    //  Declare the parameterized interface IID.
-    EXTERN_C const IID IID___x_ABI_C__FIReference_1_double;
-
-    typedef struct __x_ABI_C__FIReference_1_doubleVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIReference_1_double* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIReference_1_double* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIReference_1_double* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIReference_1_double* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIReference_1_double* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIReference_1_double* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_C__FIReference_1_double* This,
-        DOUBLE* result);
-
-        END_INTERFACE
-    } __x_ABI_C__FIReference_1_doubleVtbl;
-
-    interface __x_ABI_C__FIReference_1_double
-    {
-        CONST_VTBL struct __x_ABI_C__FIReference_1_doubleVtbl* lpVtbl;
-    };
-
-    
-    #endif // ____x_ABI_C__FIReference_1_double_INTERFACE_DEFINED__
-    
 typedef struct __x_ABI_CWindows_CUI_CColor __x_ABI_CWindows_CUI_CColor;
 
 #if !defined(____x_ABI_C__FIReference_1___x_ABI_CWindows__CUI__CColor_INTERFACE_DEFINED__)
@@ -772,38 +716,6 @@ typedef struct __x_ABI_CWindows_CUI_CColor __x_ABI_CWindows_CUI_CColor;
 
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CInputPane___x_ABI_CWindows__CUI__CViewManagement__CInputPaneVisibilityEventArgs_INTERFACE_DEFINED__
-    
-#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CStatusBar_IInspectable_INTERFACE_DEFINED__)
-    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CStatusBar_IInspectable_INTERFACE_DEFINED__
-
-    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CStatusBar_IInspectable __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CStatusBar_IInspectable;
-
-    //  Declare the parameterized interface IID.
-    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CStatusBar_IInspectable;
-
-    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CStatusBar_IInspectableVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CStatusBar_IInspectable* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CStatusBar_IInspectable* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CStatusBar_IInspectable* This);
-        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CStatusBar_IInspectable* This,
-        __x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* sender,
-        IInspectable* args);
-
-        END_INTERFACE
-    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CStatusBar_IInspectableVtbl;
-
-    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CStatusBar_IInspectable
-    {
-        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CStatusBar_IInspectableVtbl* lpVtbl;
-    };
-
-    
-    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CStatusBar_IInspectable_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CUISettings_IInspectable_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CUISettings_IInspectable_INTERFACE_DEFINED__
@@ -2482,143 +2394,6 @@ enum __x_ABI_CWindows_CUI_CViewManagement_CViewSizePreference
     EXTERN_C const IID IID___x_ABI_CWindows_CUI_CViewManagement_CIProjectionManagerStatics2;
 #endif /* !defined(____x_ABI_CWindows_CUI_CViewManagement_CIProjectionManagerStatics2_INTERFACE_DEFINED__) */
     
-#if !defined(____x_ABI_CWindows_CUI_CViewManagement_CIStatusBar_INTERFACE_DEFINED__)
-    #define ____x_ABI_CWindows_CUI_CViewManagement_CIStatusBar_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CWindows_CUI_CViewManagement_CIStatusBarVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* ShowAsync)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This,
-        __x_ABI_CWindows_CFoundation_CIAsyncAction** returnValue);
-    HRESULT (STDMETHODCALLTYPE* HideAsync)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This,
-        __x_ABI_CWindows_CFoundation_CIAsyncAction** returnValue);
-    HRESULT (STDMETHODCALLTYPE* get_BackgroundOpacity)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This,
-        DOUBLE* value);
-    HRESULT (STDMETHODCALLTYPE* put_BackgroundOpacity)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This,
-        DOUBLE value);
-    HRESULT (STDMETHODCALLTYPE* get_ForegroundColor)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This,
-        __x_ABI_C__FIReference_1___x_ABI_CWindows__CUI__CColor** value);
-    HRESULT (STDMETHODCALLTYPE* put_ForegroundColor)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This,
-        __x_ABI_C__FIReference_1___x_ABI_CWindows__CUI__CColor* value);
-    HRESULT (STDMETHODCALLTYPE* get_BackgroundColor)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This,
-        __x_ABI_C__FIReference_1___x_ABI_CWindows__CUI__CColor** value);
-    HRESULT (STDMETHODCALLTYPE* put_BackgroundColor)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This,
-        __x_ABI_C__FIReference_1___x_ABI_CWindows__CUI__CColor* value);
-    HRESULT (STDMETHODCALLTYPE* get_ProgressIndicator)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This,
-        __x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator** value);
-    HRESULT (STDMETHODCALLTYPE* get_OccludedRect)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This,
-        struct __x_ABI_CWindows_CFoundation_CRect* value);
-    HRESULT (STDMETHODCALLTYPE* add_Showing)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This,
-        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CStatusBar_IInspectable* eventHandler,
-        EventRegistrationToken* token);
-    HRESULT (STDMETHODCALLTYPE* remove_Showing)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This,
-        EventRegistrationToken token);
-    HRESULT (STDMETHODCALLTYPE* add_Hiding)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This,
-        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CViewManagement__CStatusBar_IInspectable* eventHandler,
-        EventRegistrationToken* token);
-    HRESULT (STDMETHODCALLTYPE* remove_Hiding)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBar* This,
-        EventRegistrationToken token);
-
-        END_INTERFACE
-    } __x_ABI_CWindows_CUI_CViewManagement_CIStatusBarVtbl;
-
-    interface __x_ABI_CWindows_CUI_CViewManagement_CIStatusBar
-    {
-        CONST_VTBL struct __x_ABI_CWindows_CUI_CViewManagement_CIStatusBarVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CViewManagement_CIStatusBar;
-#endif /* !defined(____x_ABI_CWindows_CUI_CViewManagement_CIStatusBar_INTERFACE_DEFINED__) */
-    
-#if !defined(____x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator_INTERFACE_DEFINED__)
-    #define ____x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicatorVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* ShowAsync)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator* This,
-        __x_ABI_CWindows_CFoundation_CIAsyncAction** returnValue);
-    HRESULT (STDMETHODCALLTYPE* HideAsync)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator* This,
-        __x_ABI_CWindows_CFoundation_CIAsyncAction** returnValue);
-    HRESULT (STDMETHODCALLTYPE* get_Text)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator* This,
-        HSTRING* value);
-    HRESULT (STDMETHODCALLTYPE* put_Text)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator* This,
-        HSTRING value);
-    HRESULT (STDMETHODCALLTYPE* get_ProgressValue)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator* This,
-        __x_ABI_C__FIReference_1_double** value);
-    HRESULT (STDMETHODCALLTYPE* put_ProgressValue)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator* This,
-        __x_ABI_C__FIReference_1_double* value);
-
-        END_INTERFACE
-    } __x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicatorVtbl;
-
-    interface __x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator
-    {
-        CONST_VTBL struct __x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicatorVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator;
-#endif /* !defined(____x_ABI_CWindows_CUI_CViewManagement_CIStatusBarProgressIndicator_INTERFACE_DEFINED__) */
-    
-#if !defined(____x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStatics_INTERFACE_DEFINED__)
-    #define ____x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStatics_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStaticsVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStatics* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStatics* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStatics* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStatics* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStatics* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStatics* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* GetForCurrentView)(__x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStatics* This,
-        __x_ABI_CWindows_CUI_CViewManagement_CIStatusBar** value);
-
-        END_INTERFACE
-    } __x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStaticsVtbl;
-
-    interface __x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStatics
-    {
-        CONST_VTBL struct __x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStaticsVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStatics;
-#endif /* !defined(____x_ABI_CWindows_CUI_CViewManagement_CIStatusBarStatics_INTERFACE_DEFINED__) */
-    
 #if !defined(____x_ABI_CWindows_CUI_CViewManagement_CIUISettings_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CUI_CViewManagement_CIUISettings_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CUI_CViewManagement_CIUISettingsVtbl
@@ -3056,7 +2831,7 @@ enum __x_ABI_CWindows_CUI_CViewManagement_CViewSizePreference
         HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CViewManagement_CIUIViewSettingsStatics* This,
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* GetForCurrentView)(__x_ABI_CWindows_CUI_CViewManagement_CIUIViewSettingsStatics* This,
-        __x_ABI_CWindows_CUI_CViewManagement_CIUIViewSettings** current);
+        __x_ABI_CWindows_CUI_CViewManagement_CIUIViewSettings** result);
 
         END_INTERFACE
     } __x_ABI_CWindows_CUI_CViewManagement_CIUIViewSettingsStaticsVtbl;

@@ -2667,7 +2667,7 @@ struct __x_ABI_CWindows_CUI_CInput_CManipulationVelocities
         __x_ABI_CWindows_CUI_CInput_CIMouseWheelParameters** value);
     HRESULT (STDMETHODCALLTYPE* CanBeDoubleTap)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
         __x_ABI_CWindows_CUI_CInput_CIPointerPoint* value,
-        boolean* canBeDoubleTap);
+        boolean* result);
     HRESULT (STDMETHODCALLTYPE* ProcessDownEvent)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
         __x_ABI_CWindows_CUI_CInput_CIPointerPoint* value);
     HRESULT (STDMETHODCALLTYPE* ProcessMoveEvents)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
@@ -2682,49 +2682,49 @@ struct __x_ABI_CWindows_CUI_CInput_CManipulationVelocities
     HRESULT (STDMETHODCALLTYPE* CompleteGesture)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This);
     HRESULT (STDMETHODCALLTYPE* add_Tapped)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
         __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CInput__CGestureRecognizer___x_ABI_CWindows__CUI__CInput__CTappedEventArgs* handler,
-        EventRegistrationToken* pCookie);
+        EventRegistrationToken* token);
     HRESULT (STDMETHODCALLTYPE* remove_Tapped)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
-        EventRegistrationToken cookie);
+        EventRegistrationToken token);
     HRESULT (STDMETHODCALLTYPE* add_RightTapped)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
         __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CInput__CGestureRecognizer___x_ABI_CWindows__CUI__CInput__CRightTappedEventArgs* handler,
-        EventRegistrationToken* pCookie);
+        EventRegistrationToken* token);
     HRESULT (STDMETHODCALLTYPE* remove_RightTapped)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
-        EventRegistrationToken cookie);
+        EventRegistrationToken token);
     HRESULT (STDMETHODCALLTYPE* add_Holding)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
         __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CInput__CGestureRecognizer___x_ABI_CWindows__CUI__CInput__CHoldingEventArgs* handler,
-        EventRegistrationToken* pCookie);
+        EventRegistrationToken* token);
     HRESULT (STDMETHODCALLTYPE* remove_Holding)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
-        EventRegistrationToken cookie);
+        EventRegistrationToken token);
     HRESULT (STDMETHODCALLTYPE* add_Dragging)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
         __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CInput__CGestureRecognizer___x_ABI_CWindows__CUI__CInput__CDraggingEventArgs* handler,
-        EventRegistrationToken* pCookie);
+        EventRegistrationToken* token);
     HRESULT (STDMETHODCALLTYPE* remove_Dragging)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
-        EventRegistrationToken cookie);
+        EventRegistrationToken token);
     HRESULT (STDMETHODCALLTYPE* add_ManipulationStarted)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
         __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CInput__CGestureRecognizer___x_ABI_CWindows__CUI__CInput__CManipulationStartedEventArgs* handler,
-        EventRegistrationToken* pCookie);
+        EventRegistrationToken* token);
     HRESULT (STDMETHODCALLTYPE* remove_ManipulationStarted)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
-        EventRegistrationToken cookie);
+        EventRegistrationToken token);
     HRESULT (STDMETHODCALLTYPE* add_ManipulationUpdated)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
         __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CInput__CGestureRecognizer___x_ABI_CWindows__CUI__CInput__CManipulationUpdatedEventArgs* handler,
-        EventRegistrationToken* pCookie);
+        EventRegistrationToken* token);
     HRESULT (STDMETHODCALLTYPE* remove_ManipulationUpdated)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
-        EventRegistrationToken cookie);
+        EventRegistrationToken token);
     HRESULT (STDMETHODCALLTYPE* add_ManipulationInertiaStarting)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
         __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CInput__CGestureRecognizer___x_ABI_CWindows__CUI__CInput__CManipulationInertiaStartingEventArgs* handler,
-        EventRegistrationToken* pCookie);
+        EventRegistrationToken* token);
     HRESULT (STDMETHODCALLTYPE* remove_ManipulationInertiaStarting)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
-        EventRegistrationToken cookie);
+        EventRegistrationToken token);
     HRESULT (STDMETHODCALLTYPE* add_ManipulationCompleted)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
         __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CInput__CGestureRecognizer___x_ABI_CWindows__CUI__CInput__CManipulationCompletedEventArgs* handler,
-        EventRegistrationToken* pCookie);
+        EventRegistrationToken* token);
     HRESULT (STDMETHODCALLTYPE* remove_ManipulationCompleted)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
-        EventRegistrationToken cookie);
+        EventRegistrationToken token);
     HRESULT (STDMETHODCALLTYPE* add_CrossSliding)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
         __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CInput__CGestureRecognizer___x_ABI_CWindows__CUI__CInput__CCrossSlidingEventArgs* handler,
-        EventRegistrationToken* pCookie);
+        EventRegistrationToken* token);
     HRESULT (STDMETHODCALLTYPE* remove_CrossSliding)(__x_ABI_CWindows_CUI_CInput_CIGestureRecognizer* This,
-        EventRegistrationToken cookie);
+        EventRegistrationToken token);
 
         END_INTERFACE
     } __x_ABI_CWindows_CUI_CInput_CIGestureRecognizerVtbl;

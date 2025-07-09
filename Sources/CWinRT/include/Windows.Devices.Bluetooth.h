@@ -2853,7 +2853,7 @@ enum __x_ABI_CWindows_CDevices_CBluetooth_CBluetoothServiceCapabilities
         UINT64 bluetoothAddress,
         __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CDevices__CBluetooth__CBluetoothLEDevice** operation);
     HRESULT (STDMETHODCALLTYPE* GetDeviceSelector)(__x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDeviceStatics* This,
-        HSTRING* deviceSelector);
+        HSTRING* result);
 
         END_INTERFACE
     } __x_ABI_CWindows_CDevices_CBluetooth_CIBluetoothLEDeviceStaticsVtbl;

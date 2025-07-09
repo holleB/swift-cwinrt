@@ -1709,6 +1709,7 @@ enum __x_ABI_CWindows_CMedia_CCapture_CFrames_CMediaFrameSourceKind
     __x_ABI_CWindows_CMedia_CCapture_CFrames_CMediaFrameSourceKind_Depth = 3,
     __x_ABI_CWindows_CMedia_CCapture_CFrames_CMediaFrameSourceKind_Audio = 4,
     __x_ABI_CWindows_CMedia_CCapture_CFrames_CMediaFrameSourceKind_Image = 5,
+    __x_ABI_CWindows_CMedia_CCapture_CFrames_CMediaFrameSourceKind_Metadata = 6,
 };
 
 enum __x_ABI_CWindows_CMedia_CCapture_CFrames_CMediaFrameSourceSetPropertyStatus

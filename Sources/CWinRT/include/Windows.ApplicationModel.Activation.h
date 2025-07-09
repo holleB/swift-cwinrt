@@ -1143,6 +1143,10 @@ enum __x_ABI_CWindows_CApplicationModel_CActivation_CActivationKind
     __x_ABI_CWindows_CApplicationModel_CActivation_CActivationKind_StartupTask = 1020,
     __x_ABI_CWindows_CApplicationModel_CActivation_CActivationKind_CommandLineLaunch = 1021,
     __x_ABI_CWindows_CApplicationModel_CActivation_CActivationKind_BarcodeScannerProvider = 1022,
+    __x_ABI_CWindows_CApplicationModel_CActivation_CActivationKind_PrintSupportJobUI = 1023,
+    __x_ABI_CWindows_CApplicationModel_CActivation_CActivationKind_PrintSupportSettingsUI = 1024,
+    __x_ABI_CWindows_CApplicationModel_CActivation_CActivationKind_PhoneCallActivation = 1025,
+    __x_ABI_CWindows_CApplicationModel_CActivation_CActivationKind_VpnForeground = 1026,
 };
 
 enum __x_ABI_CWindows_CApplicationModel_CActivation_CApplicationExecutionState

@@ -75,12 +75,6 @@
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CIAppInstanceStatics_FWD_DEFINED__
 
-#ifndef ____x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics_FWD_DEFINED__
-#define ____x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics_FWD_DEFINED__
-    typedef interface __x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics __x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics;
-
-#endif // ____x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics_FWD_DEFINED__
-
 #ifndef ____x_ABI_CWindows_CApplicationModel_CIDesignModeStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CIDesignModeStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CApplicationModel_CIDesignModeStatics __x_ABI_CWindows_CApplicationModel_CIDesignModeStatics;
@@ -3300,38 +3294,6 @@ struct __x_ABI_CWindows_CApplicationModel_CPackageVersion
     
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CIAppInstanceStatics;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CIAppInstanceStatics_INTERFACE_DEFINED__) */
-    
-#if !defined(____x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics_INTERFACE_DEFINED__)
-    #define ____x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStaticsVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* ShowInstalledApplicationsUI)(__x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics* This);
-
-        END_INTERFACE
-    } __x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStaticsVtbl;
-
-    interface __x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics
-    {
-        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStaticsVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics;
-#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CICameraApplicationManagerStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CApplicationModel_CIDesignModeStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CIDesignModeStatics_INTERFACE_DEFINED__

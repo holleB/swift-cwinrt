@@ -684,6 +684,7 @@ enum __x_ABI_CWindows_CDevices_CInput_CPointerDeviceType
         __x_ABI_CWindows_CDevices_CInput_CPointerDeviceType_Touch = 0,
     __x_ABI_CWindows_CDevices_CInput_CPointerDeviceType_Pen = 1,
     __x_ABI_CWindows_CDevices_CInput_CPointerDeviceType_Mouse = 2,
+    __x_ABI_CWindows_CDevices_CInput_CPointerDeviceType_Touchpad = 3,
 };
 
 struct __x_ABI_CWindows_CDevices_CInput_CMouseDelta

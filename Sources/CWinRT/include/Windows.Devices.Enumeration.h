@@ -1970,6 +1970,7 @@ enum __x_ABI_CWindows_CDevices_CEnumeration_CDeviceInformationKind
     __x_ABI_CWindows_CDevices_CEnumeration_CDeviceInformationKind_AssociationEndpointContainer = 6,
     __x_ABI_CWindows_CDevices_CEnumeration_CDeviceInformationKind_AssociationEndpointService = 7,
     __x_ABI_CWindows_CDevices_CEnumeration_CDeviceInformationKind_DevicePanel = 8,
+    __x_ABI_CWindows_CDevices_CEnumeration_CDeviceInformationKind_AssociationEndpointProtocol = 9,
 };
 
 enum __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingAddPairingSetMemberStatus
@@ -1990,6 +1991,7 @@ enum __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingKinds
     __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingKinds_ProvidePin = 0x4,
     __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingKinds_ConfirmPinMatch = 0x8,
     __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingKinds_ProvidePasswordCredential = 0x10,
+    __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingKinds_ProvideAddress = 0x20,
 };
 
 enum __x_ABI_CWindows_CDevices_CEnumeration_CDevicePairingProtectionLevel

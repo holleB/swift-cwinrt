@@ -104,6 +104,7 @@ enum __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CPhoneTriggerType
     __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CPhoneTriggerType_CallOriginDataRequest = 4,
     __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CPhoneTriggerType_CallBlocked = 5,
     __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CPhoneTriggerType_IncomingCallDismissed = 6,
+    __x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CPhoneTriggerType_IncomingCallNotification = 7,
 };
 
 #if !defined(____x_ABI_CWindows_CApplicationModel_CCalls_CBackground_CIPhoneCallBlockedTriggerDetails_INTERFACE_DEFINED__)

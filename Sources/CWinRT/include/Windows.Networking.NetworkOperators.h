@@ -117,12 +117,6 @@
 
 #endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIESimWatcher_FWD_DEFINED__
 
-#ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics_FWD_DEFINED__
-#define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics_FWD_DEFINED__
-    typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics __x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics;
-
-#endif // ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics_FWD_DEFINED__
-
 #ifndef ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIHotspotAuthenticationContext_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIHotspotAuthenticationContext_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIHotspotAuthenticationContext __x_ABI_CWindows_CNetworking_CNetworkOperators_CIHotspotAuthenticationContext;
@@ -5774,6 +5768,8 @@ enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CDataClasses
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CDataClasses_Hsdpa = 0x8,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CDataClasses_Hsupa = 0x10,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CDataClasses_LteAdvanced = 0x20,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CDataClasses_NewRadioNonStandalone = 0x40,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CDataClasses_NewRadioStandalone = 0x80,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CDataClasses_Cdma1xRtt = 0x10000,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CDataClasses_Cdma1xEvdo = 0x20000,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CDataClasses_Cdma1xEvdoRevA = 0x40000,
@@ -5824,6 +5820,11 @@ enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimOperationStatus
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimOperationStatus_OperationProhibitedByProfileClass = 21,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimOperationStatus_ProfileNotPresent = 22,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimOperationStatus_NoCorrespondingRequest = 23,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimOperationStatus_TimeoutWaitingForResponse = 24,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimOperationStatus_IccidAlreadyExists = 25,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimOperationStatus_ProfileProcessingError = 26,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimOperationStatus_ServerNotTrusted = 27,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimOperationStatus_ProfileDownloadMaxRetriesExceeded = 28,
 };
 
 enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CESimProfileClass
@@ -6038,6 +6039,9 @@ enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationStatus
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationStatus_OperationInProgress = 6,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationStatus_BluetoothDeviceOff = 7,
     __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationStatus_NetworkLimitedConnectivity = 8,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationStatus_AlreadyOn = 9,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationStatus_RadioRestriction = 10,
+    __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationStatus_BandInterference = 11,
 };
 
 enum __x_ABI_CWindows_CNetworking_CNetworkOperators_CTetheringOperationalState
@@ -6813,40 +6817,6 @@ struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CProfileUsage
     
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIESimWatcher;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIESimWatcher_INTERFACE_DEFINED__) */
-    
-#if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics_INTERFACE_DEFINED__)
-    #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStaticsVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* RequestUnlockAsync)(__x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics* This,
-        HSTRING contactListId,
-        __x_ABI_C__FIAsyncOperation_1_boolean** returnValue);
-
-        END_INTERFACE
-    } __x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStaticsVtbl;
-
-    interface __x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics
-    {
-        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStaticsVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics;
-#endif /* !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIFdnAccessManagerStatics_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CNetworking_CNetworkOperators_CIHotspotAuthenticationContext_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CNetworkOperators_CIHotspotAuthenticationContext_INTERFACE_DEFINED__

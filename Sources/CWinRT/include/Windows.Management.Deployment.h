@@ -2152,9 +2152,8 @@ enum __x_ABI_CWindows_CManagement_CDeployment_CDeploymentOptions
     __x_ABI_CWindows_CManagement_CDeployment_CDeploymentOptions_ForceTargetApplicationShutdown = 0x40,
     __x_ABI_CWindows_CManagement_CDeployment_CDeploymentOptions_RequiredContentGroupOnly = 0x100,
     __x_ABI_CWindows_CManagement_CDeployment_CDeploymentOptions_ForceUpdateFromAnyVersion = 0x40000,
-#if defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
     __x_ABI_CWindows_CManagement_CDeployment_CDeploymentOptions_RetainFilesOnFailure = 0x200000,
-#endif // defined(ENABLE_WINRT_EXPERIMENTAL_TYPES)
+    __x_ABI_CWindows_CManagement_CDeployment_CDeploymentOptions_StageInPlace = 0x400000,
 };
 
 enum __x_ABI_CWindows_CManagement_CDeployment_CDeploymentProgressState
@@ -2203,12 +2202,15 @@ enum __x_ABI_CWindows_CManagement_CDeployment_CPackageTypes
     __x_ABI_CWindows_CManagement_CDeployment_CPackageTypes_Bundle = 0x8,
     __x_ABI_CWindows_CManagement_CDeployment_CPackageTypes_Xap = 0x10,
     __x_ABI_CWindows_CManagement_CDeployment_CPackageTypes_Optional = 0x20,
+    __x_ABI_CWindows_CManagement_CDeployment_CPackageTypes_All = 0xffffffff,
 };
 
 enum __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions
     {
         __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions_None = 0,
     __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions_PreserveApplicationData = 0x1000,
+    __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions_PreserveRoamableApplicationData = 0x80,
+    __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions_DeferRemovalWhenPackagesAreInUse = 0x2000,
     __x_ABI_CWindows_CManagement_CDeployment_CRemovalOptions_RemoveForAllUsers = 0x80000,
 };
 

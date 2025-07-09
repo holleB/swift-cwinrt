@@ -2830,7 +2830,7 @@ enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme
         HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage* This,
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* GetView)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage* This,
-        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackageView** value);
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackageView** result);
     HRESULT (STDMETHODCALLTYPE* get_Properties)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage* This,
         __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackagePropertySet** value);
     HRESULT (STDMETHODCALLTYPE* get_RequestedOperation)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage* This,
@@ -2839,14 +2839,14 @@ enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme
         enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CDataPackageOperation value);
     HRESULT (STDMETHODCALLTYPE* add_OperationCompleted)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage* This,
         __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataPackage___x_ABI_CWindows__CApplicationModel__CDataTransfer__COperationCompletedEventArgs* handler,
-        EventRegistrationToken* eventCookie);
+        EventRegistrationToken* token);
     HRESULT (STDMETHODCALLTYPE* remove_OperationCompleted)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage* This,
-        EventRegistrationToken eventCookie);
+        EventRegistrationToken token);
     HRESULT (STDMETHODCALLTYPE* add_Destroyed)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage* This,
         __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataPackage_IInspectable* handler,
-        EventRegistrationToken* eventCookie);
+        EventRegistrationToken* token);
     HRESULT (STDMETHODCALLTYPE* remove_Destroyed)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage* This,
-        EventRegistrationToken eventCookie);
+        EventRegistrationToken token);
     HRESULT (STDMETHODCALLTYPE* SetData)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage* This,
         HSTRING formatId,
         IInspectable* value);
@@ -3613,7 +3613,7 @@ enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme
     HRESULT (STDMETHODCALLTYPE* FailWithDisplayText)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataRequest* This,
         HSTRING value);
     HRESULT (STDMETHODCALLTYPE* GetDeferral)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataRequest* This,
-        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataRequestDeferral** value);
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataRequestDeferral** result);
 
         END_INTERFACE
     } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataRequestVtbl;
@@ -3711,15 +3711,15 @@ enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme
         HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManager* This,
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* add_DataRequested)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManager* This,
-        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataTransferManager___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataRequestedEventArgs* eventHandler,
-        EventRegistrationToken* eventCookie);
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataTransferManager___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataRequestedEventArgs* handler,
+        EventRegistrationToken* token);
     HRESULT (STDMETHODCALLTYPE* remove_DataRequested)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManager* This,
-        EventRegistrationToken eventCookie);
+        EventRegistrationToken token);
     HRESULT (STDMETHODCALLTYPE* add_TargetApplicationChosen)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManager* This,
-        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataTransferManager___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTargetApplicationChosenEventArgs* eventHandler,
-        EventRegistrationToken* eventCookie);
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataTransferManager___x_ABI_CWindows__CApplicationModel__CDataTransfer__CTargetApplicationChosenEventArgs* handler,
+        EventRegistrationToken* token);
     HRESULT (STDMETHODCALLTYPE* remove_TargetApplicationChosen)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManager* This,
-        EventRegistrationToken eventCookie);
+        EventRegistrationToken token);
 
         END_INTERFACE
     } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManagerVtbl;
@@ -3789,7 +3789,7 @@ enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* ShowShareUI)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManagerStatics* This);
     HRESULT (STDMETHODCALLTYPE* GetForCurrentView)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManagerStatics* This,
-        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManager** value);
+        __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManager** result);
 
         END_INTERFACE
     } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManagerStaticsVtbl;
@@ -3822,7 +3822,7 @@ enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme
         HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManagerStatics2* This,
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* IsSupported)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManagerStatics2* This,
-        boolean* value);
+        boolean* result);
 
         END_INTERFACE
     } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataTransferManagerStatics2Vtbl;
@@ -4142,7 +4142,7 @@ enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme
     HRESULT (STDMETHODCALLTYPE* get_Data)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIShareProvidersRequestedEventArgs* This,
         __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackageView** value);
     HRESULT (STDMETHODCALLTYPE* GetDeferral)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIShareProvidersRequestedEventArgs* This,
-        __x_ABI_CWindows_CFoundation_CIDeferral** value);
+        __x_ABI_CWindows_CFoundation_CIDeferral** result);
 
         END_INTERFACE
     } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIShareProvidersRequestedEventArgsVtbl;

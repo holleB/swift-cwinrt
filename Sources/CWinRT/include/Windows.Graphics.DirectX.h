@@ -170,6 +170,9 @@ enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat
     __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat_P208 = 130,
     __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat_V208 = 131,
     __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat_V408 = 132,
+    __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat_SamplerFeedbackMinMipOpaque = 189,
+    __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat_SamplerFeedbackMipRegionUsedOpaque = 190,
+    __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPixelFormat_A4B4G4R4 = 191,
 };
 
 enum __x_ABI_CWindows_CGraphics_CDirectX_CDirectXPrimitiveTopology

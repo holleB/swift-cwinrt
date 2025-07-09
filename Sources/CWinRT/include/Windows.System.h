@@ -4607,6 +4607,7 @@ enum __x_ABI_CWindows_CSystem_CUserType
     __x_ABI_CWindows_CSystem_CUserType_RemoteUser = 1,
     __x_ABI_CWindows_CSystem_CUserType_LocalGuest = 2,
     __x_ABI_CWindows_CSystem_CUserType_RemoteGuest = 3,
+    __x_ABI_CWindows_CSystem_CUserType_SystemManaged = 4,
 };
 
 enum __x_ABI_CWindows_CSystem_CUserWatcherStatus
@@ -4645,10 +4646,12 @@ enum __x_ABI_CWindows_CSystem_CVirtualKey
     __x_ABI_CWindows_CSystem_CVirtualKey_CapitalLock = 20,
     __x_ABI_CWindows_CSystem_CVirtualKey_Kana = 21,
     __x_ABI_CWindows_CSystem_CVirtualKey_Hangul = 21,
+    __x_ABI_CWindows_CSystem_CVirtualKey_ImeOn = 22,
     __x_ABI_CWindows_CSystem_CVirtualKey_Junja = 23,
     __x_ABI_CWindows_CSystem_CVirtualKey_Final = 24,
     __x_ABI_CWindows_CSystem_CVirtualKey_Hanja = 25,
     __x_ABI_CWindows_CSystem_CVirtualKey_Kanji = 25,
+    __x_ABI_CWindows_CSystem_CVirtualKey_ImeOff = 26,
     __x_ABI_CWindows_CSystem_CVirtualKey_Escape = 27,
     __x_ABI_CWindows_CSystem_CVirtualKey_Convert = 28,
     __x_ABI_CWindows_CSystem_CVirtualKey_NonConvert = 29,

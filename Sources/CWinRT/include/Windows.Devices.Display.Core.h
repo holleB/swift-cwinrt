@@ -1752,6 +1752,7 @@ enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayManagerOptions
     {
         __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayManagerOptions_None = 0,
     __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayManagerOptions_EnforceSourceOwnership = 0x1,
+    __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayManagerOptions_VirtualRefreshRateAware = 0x2,
 };
 
 enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayManagerResult
@@ -1860,6 +1861,7 @@ enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayTargetPersistence
 enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayTaskSignalKind
     {
         __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayTaskSignalKind_OnPresentFlipAway = 0,
+    __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayTaskSignalKind_OnPresentFlipTo = 1,
 };
 
 enum __x_ABI_CWindows_CDevices_CDisplay_CCore_CDisplayWireFormatColorSpace

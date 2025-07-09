@@ -3470,6 +3470,7 @@ enum __x_ABI_CWindows_CStorage_CApplicationDataLocality
     __x_ABI_CWindows_CStorage_CApplicationDataLocality_Roaming = 1,
     __x_ABI_CWindows_CStorage_CApplicationDataLocality_Temporary = 2,
     __x_ABI_CWindows_CStorage_CApplicationDataLocality_LocalCache = 3,
+    __x_ABI_CWindows_CStorage_CApplicationDataLocality_SharedLocal = 4,
 };
 
 enum __x_ABI_CWindows_CStorage_CCreationCollisionOption
@@ -3514,6 +3515,7 @@ enum __x_ABI_CWindows_CStorage_CKnownFolderId
     __x_ABI_CWindows_CStorage_CKnownFolderId_VideosLibrary = 13,
     __x_ABI_CWindows_CStorage_CKnownFolderId_AllAppMods = 14,
     __x_ABI_CWindows_CStorage_CKnownFolderId_CurrentAppMods = 15,
+    __x_ABI_CWindows_CStorage_CKnownFolderId_DownloadsFolder = 16,
 };
 
 enum __x_ABI_CWindows_CStorage_CKnownFoldersAccessStatus

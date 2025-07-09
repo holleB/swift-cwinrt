@@ -4145,9 +4145,9 @@ struct __x_ABI_CWindows_CUI_CComposition_CInkTrailPoint
         HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CICompositionCapabilities* This,
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* AreEffectsSupported)(__x_ABI_CWindows_CUI_CComposition_CICompositionCapabilities* This,
-        boolean* value);
+        boolean* result);
     HRESULT (STDMETHODCALLTYPE* AreEffectsFast)(__x_ABI_CWindows_CUI_CComposition_CICompositionCapabilities* This,
-        boolean* value);
+        boolean* result);
     HRESULT (STDMETHODCALLTYPE* add_Changed)(__x_ABI_CWindows_CUI_CComposition_CICompositionCapabilities* This,
         __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CUI__CComposition__CCompositionCapabilities_IInspectable* handler,
         EventRegistrationToken* token);
@@ -4185,7 +4185,7 @@ struct __x_ABI_CWindows_CUI_CComposition_CInkTrailPoint
         HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CUI_CComposition_CICompositionCapabilitiesStatics* This,
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* GetForCurrentView)(__x_ABI_CWindows_CUI_CComposition_CICompositionCapabilitiesStatics* This,
-        __x_ABI_CWindows_CUI_CComposition_CICompositionCapabilities** current);
+        __x_ABI_CWindows_CUI_CComposition_CICompositionCapabilities** result);
 
         END_INTERFACE
     } __x_ABI_CWindows_CUI_CComposition_CICompositionCapabilitiesStaticsVtbl;
@@ -4883,7 +4883,7 @@ struct __x_ABI_CWindows_CUI_CComposition_CInkTrailPoint
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* Create)(__x_ABI_CWindows_CUI_CComposition_CICompositionEffectSourceParameterFactory* This,
         HSTRING name,
-        __x_ABI_CWindows_CUI_CComposition_CICompositionEffectSourceParameter** instance);
+        __x_ABI_CWindows_CUI_CComposition_CICompositionEffectSourceParameter** value);
 
         END_INTERFACE
     } __x_ABI_CWindows_CUI_CComposition_CICompositionEffectSourceParameterFactoryVtbl;
@@ -6024,7 +6024,7 @@ struct __x_ABI_CWindows_CUI_CComposition_CInkTrailPoint
             TrustLevel* trustLevel);
         HRESULT (STDMETHODCALLTYPE* Create)(__x_ABI_CWindows_CUI_CComposition_CICompositionPathFactory* This,
         __x_ABI_CWindows_CGraphics_CIGeometrySource2D* source,
-        __x_ABI_CWindows_CUI_CComposition_CICompositionPath** result);
+        __x_ABI_CWindows_CUI_CComposition_CICompositionPath** value);
 
         END_INTERFACE
     } __x_ABI_CWindows_CUI_CComposition_CICompositionPathFactoryVtbl;
@@ -7726,7 +7726,7 @@ struct __x_ABI_CWindows_CUI_CComposition_CInkTrailPoint
     HRESULT (STDMETHODCALLTYPE* CreateViewBox)(__x_ABI_CWindows_CUI_CComposition_CICompositor5* This,
         __x_ABI_CWindows_CUI_CComposition_CICompositionViewBox** result);
     HRESULT (STDMETHODCALLTYPE* RequestCommitAsync)(__x_ABI_CWindows_CUI_CComposition_CICompositor5* This,
-        __x_ABI_CWindows_CFoundation_CIAsyncAction** action);
+        __x_ABI_CWindows_CFoundation_CIAsyncAction** operation);
 
         END_INTERFACE
     } __x_ABI_CWindows_CUI_CComposition_CICompositor5Vtbl;

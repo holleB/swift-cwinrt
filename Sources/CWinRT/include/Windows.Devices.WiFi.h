@@ -1203,6 +1203,7 @@ enum __x_ABI_CWindows_CDevices_CWiFi_CWiFiPhyKind
     __x_ABI_CWindows_CDevices_CWiFi_CWiFiPhyKind_Vht = 8,
     __x_ABI_CWindows_CDevices_CWiFi_CWiFiPhyKind_Dmg = 9,
     __x_ABI_CWindows_CDevices_CWiFi_CWiFiPhyKind_HE = 10,
+    __x_ABI_CWindows_CDevices_CWiFi_CWiFiPhyKind_Eht = 11,
 };
 
 enum __x_ABI_CWindows_CDevices_CWiFi_CWiFiReconnectionKind

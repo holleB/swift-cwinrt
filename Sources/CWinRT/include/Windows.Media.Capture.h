@@ -686,24 +686,6 @@ typedef interface __x_ABI_CWindows_CMedia_CCapture_CIRecordLimitationExceededEve
 
 #endif // ____x_ABI_CWindows_CMedia_CCapture_CIPhotoConfirmationCapturedEventArgs_FWD_DEFINED__
 
-#ifndef ____x_ABI_CWindows_CMedia_CCapture_CIScreenCapture_FWD_DEFINED__
-#define ____x_ABI_CWindows_CMedia_CCapture_CIScreenCapture_FWD_DEFINED__
-    typedef interface __x_ABI_CWindows_CMedia_CCapture_CIScreenCapture __x_ABI_CWindows_CMedia_CCapture_CIScreenCapture;
-
-#endif // ____x_ABI_CWindows_CMedia_CCapture_CIScreenCapture_FWD_DEFINED__
-
-#ifndef ____x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStatics_FWD_DEFINED__
-#define ____x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStatics_FWD_DEFINED__
-    typedef interface __x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStatics __x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStatics;
-
-#endif // ____x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStatics_FWD_DEFINED__
-
-#ifndef ____x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs_FWD_DEFINED__
-#define ____x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs_FWD_DEFINED__
-    typedef interface __x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs __x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs;
-
-#endif // ____x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs_FWD_DEFINED__
-
 #ifndef ____x_ABI_CWindows_CMedia_CCapture_CIVideoStreamConfiguration_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CCapture_CIVideoStreamConfiguration_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CMedia_CCapture_CIVideoStreamConfiguration __x_ABI_CWindows_CMedia_CCapture_CIVideoStreamConfiguration;
@@ -4282,38 +4264,6 @@ typedef enum __x_ABI_CWindows_CMedia_CDevices_CMediaCaptureFocusState __x_ABI_CW
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CMediaCaptureRelativePanelWatcher_IInspectable_INTERFACE_DEFINED__
     
-#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CScreenCapture___x_ABI_CWindows__CMedia__CCapture__CSourceSuspensionChangedEventArgs_INTERFACE_DEFINED__)
-    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CScreenCapture___x_ABI_CWindows__CMedia__CCapture__CSourceSuspensionChangedEventArgs_INTERFACE_DEFINED__
-
-    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CScreenCapture___x_ABI_CWindows__CMedia__CCapture__CSourceSuspensionChangedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CScreenCapture___x_ABI_CWindows__CMedia__CCapture__CSourceSuspensionChangedEventArgs;
-
-    //  Declare the parameterized interface IID.
-    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CScreenCapture___x_ABI_CWindows__CMedia__CCapture__CSourceSuspensionChangedEventArgs;
-
-    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CScreenCapture___x_ABI_CWindows__CMedia__CCapture__CSourceSuspensionChangedEventArgsVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CScreenCapture___x_ABI_CWindows__CMedia__CCapture__CSourceSuspensionChangedEventArgs* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CScreenCapture___x_ABI_CWindows__CMedia__CCapture__CSourceSuspensionChangedEventArgs* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CScreenCapture___x_ABI_CWindows__CMedia__CCapture__CSourceSuspensionChangedEventArgs* This);
-        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CScreenCapture___x_ABI_CWindows__CMedia__CCapture__CSourceSuspensionChangedEventArgs* This,
-        __x_ABI_CWindows_CMedia_CCapture_CIScreenCapture* sender,
-        __x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs* args);
-
-        END_INTERFACE
-    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CScreenCapture___x_ABI_CWindows__CMedia__CCapture__CSourceSuspensionChangedEventArgsVtbl;
-
-    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CScreenCapture___x_ABI_CWindows__CMedia__CCapture__CSourceSuspensionChangedEventArgs
-    {
-        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CScreenCapture___x_ABI_CWindows__CMedia__CCapture__CSourceSuspensionChangedEventArgsVtbl* lpVtbl;
-    };
-
-    
-    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CScreenCapture___x_ABI_CWindows__CMedia__CCapture__CSourceSuspensionChangedEventArgs_INTERFACE_DEFINED__
-    
 typedef enum __x_ABI_CWindows_CDevices_CEnumeration_CPanel __x_ABI_CWindows_CDevices_CEnumeration_CPanel;
 
 typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundation_CAsyncStatus;
@@ -5154,6 +5104,7 @@ enum __x_ABI_CWindows_CMedia_CCapture_CKnownVideoProfile
     __x_ABI_CWindows_CMedia_CCapture_CKnownVideoProfile_HdrWithWcgVideo = 7,
     __x_ABI_CWindows_CMedia_CCapture_CKnownVideoProfile_HdrWithWcgPhoto = 8,
     __x_ABI_CWindows_CMedia_CCapture_CKnownVideoProfile_VideoHdr8 = 9,
+    __x_ABI_CWindows_CMedia_CCapture_CKnownVideoProfile_CompressedCamera = 10,
 };
 
 enum __x_ABI_CWindows_CMedia_CCapture_CMediaCaptureDeviceExclusiveControlReleaseMode
@@ -5193,6 +5144,9 @@ enum __x_ABI_CWindows_CMedia_CCapture_CMediaCategory
     __x_ABI_CWindows_CMedia_CCapture_CMediaCategory_Media = 2,
     __x_ABI_CWindows_CMedia_CCapture_CMediaCategory_GameChat = 3,
     __x_ABI_CWindows_CMedia_CCapture_CMediaCategory_Speech = 4,
+    __x_ABI_CWindows_CMedia_CCapture_CMediaCategory_FarFieldSpeech = 5,
+    __x_ABI_CWindows_CMedia_CCapture_CMediaCategory_UniformSpeech = 6,
+    __x_ABI_CWindows_CMedia_CCapture_CMediaCategory_VoiceTyping = 7,
 };
 
 enum __x_ABI_CWindows_CMedia_CCapture_CMediaStreamType
@@ -5201,6 +5155,7 @@ enum __x_ABI_CWindows_CMedia_CCapture_CMediaStreamType
     __x_ABI_CWindows_CMedia_CCapture_CMediaStreamType_VideoRecord = 1,
     __x_ABI_CWindows_CMedia_CCapture_CMediaStreamType_Audio = 2,
     __x_ABI_CWindows_CMedia_CCapture_CMediaStreamType_Photo = 3,
+    __x_ABI_CWindows_CMedia_CCapture_CMediaStreamType_Metadata = 4,
 };
 
 enum __x_ABI_CWindows_CMedia_CCapture_CPhotoCaptureSource
@@ -9951,118 +9906,6 @@ struct __x_ABI_CWindows_CMedia_CCapture_CWhiteBalanceGain
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCapture_CIPhotoConfirmationCapturedEventArgs;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CCapture_CIPhotoConfirmationCapturedEventArgs_INTERFACE_DEFINED__) */
-    
-#if !defined(____x_ABI_CWindows_CMedia_CCapture_CIScreenCapture_INTERFACE_DEFINED__)
-    #define ____x_ABI_CWindows_CMedia_CCapture_CIScreenCapture_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCapture* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCapture* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCapture* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCapture* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCapture* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCapture* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* get_AudioSource)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCapture* This,
-        __x_ABI_CWindows_CMedia_CCore_CIMediaSource** value);
-    HRESULT (STDMETHODCALLTYPE* get_VideoSource)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCapture* This,
-        __x_ABI_CWindows_CMedia_CCore_CIMediaSource** value);
-    HRESULT (STDMETHODCALLTYPE* get_IsAudioSuspended)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCapture* This,
-        boolean* value);
-    HRESULT (STDMETHODCALLTYPE* get_IsVideoSuspended)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCapture* This,
-        boolean* value);
-    HRESULT (STDMETHODCALLTYPE* add_SourceSuspensionChanged)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCapture* This,
-        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CScreenCapture___x_ABI_CWindows__CMedia__CCapture__CSourceSuspensionChangedEventArgs* handler,
-        EventRegistrationToken* token);
-    HRESULT (STDMETHODCALLTYPE* remove_SourceSuspensionChanged)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCapture* This,
-        EventRegistrationToken token);
-
-        END_INTERFACE
-    } __x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureVtbl;
-
-    interface __x_ABI_CWindows_CMedia_CCapture_CIScreenCapture
-    {
-        CONST_VTBL struct __x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCapture_CIScreenCapture;
-#endif /* !defined(____x_ABI_CWindows_CMedia_CCapture_CIScreenCapture_INTERFACE_DEFINED__) */
-    
-#if !defined(____x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStatics_INTERFACE_DEFINED__)
-    #define ____x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStatics_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStaticsVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStatics* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStatics* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStatics* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStatics* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStatics* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStatics* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* GetForCurrentView)(__x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStatics* This,
-        __x_ABI_CWindows_CMedia_CCapture_CIScreenCapture** value);
-
-        END_INTERFACE
-    } __x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStaticsVtbl;
-
-    interface __x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStatics
-    {
-        CONST_VTBL struct __x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStaticsVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStatics;
-#endif /* !defined(____x_ABI_CWindows_CMedia_CCapture_CIScreenCaptureStatics_INTERFACE_DEFINED__) */
-    
-#if !defined(____x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs_INTERFACE_DEFINED__)
-    #define ____x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgsVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* get_IsAudioSuspended)(__x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs* This,
-        boolean* value);
-    HRESULT (STDMETHODCALLTYPE* get_IsVideoSuspended)(__x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs* This,
-        boolean* value);
-
-        END_INTERFACE
-    } __x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgsVtbl;
-
-    interface __x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs
-    {
-        CONST_VTBL struct __x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgsVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs;
-#endif /* !defined(____x_ABI_CWindows_CMedia_CCapture_CISourceSuspensionChangedEventArgs_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CMedia_CCapture_CIVideoStreamConfiguration_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CCapture_CIVideoStreamConfiguration_INTERFACE_DEFINED__

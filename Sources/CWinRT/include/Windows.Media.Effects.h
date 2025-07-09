@@ -105,12 +105,6 @@
 
 #endif // ____x_ABI_CWindows_CMedia_CEffects_CIProcessVideoFrameContext_FWD_DEFINED__
 
-#ifndef ____x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition_FWD_DEFINED__
-#define ____x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition_FWD_DEFINED__
-    typedef interface __x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition __x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition;
-
-#endif // ____x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition_FWD_DEFINED__
-
 #ifndef ____x_ABI_CWindows_CMedia_CEffects_CIVideoCompositor_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CEffects_CIVideoCompositor_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CMedia_CEffects_CIVideoCompositor __x_ABI_CWindows_CMedia_CEffects_CIVideoCompositor;
@@ -881,6 +875,8 @@ enum __x_ABI_CWindows_CMedia_CEffects_CAudioEffectType
     __x_ABI_CWindows_CMedia_CEffects_CAudioEffectType_SpeakerProtection = 15,
     __x_ABI_CWindows_CMedia_CEffects_CAudioEffectType_SpeakerCompensation = 16,
     __x_ABI_CWindows_CMedia_CEffects_CAudioEffectType_DynamicRangeCompression = 17,
+    __x_ABI_CWindows_CMedia_CEffects_CAudioEffectType_FarFieldBeamForming = 18,
+    __x_ABI_CWindows_CMedia_CEffects_CAudioEffectType_DeepNoiseSuppression = 19,
 };
 
 enum __x_ABI_CWindows_CMedia_CEffects_CMediaEffectClosedReason
@@ -1435,41 +1431,6 @@ enum __x_ABI_CWindows_CMedia_CEffects_CMediaMemoryTypes
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CEffects_CIProcessVideoFrameContext;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CEffects_CIProcessVideoFrameContext_INTERFACE_DEFINED__) */
-    
-#if !defined(____x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition_INTERFACE_DEFINED__)
-    #define ____x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition_INTERFACE_DEFINED__
-    typedef struct __x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinitionVtbl
-    {
-        BEGIN_INTERFACE
-
-        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition* This,
-            REFIID riid,
-            void** ppvObject);
-        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition* This);
-        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition* This);
-        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition* This,
-            ULONG* iidCount,
-            IID** iids);
-        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition* This,
-            HSTRING* className);
-        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition* This,
-            TrustLevel* trustLevel);
-        HRESULT (STDMETHODCALLTYPE* get_TimeStretchRate)(__x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition* This,
-        DOUBLE* value);
-    HRESULT (STDMETHODCALLTYPE* put_TimeStretchRate)(__x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition* This,
-        DOUBLE value);
-
-        END_INTERFACE
-    } __x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinitionVtbl;
-
-    interface __x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition
-    {
-        CONST_VTBL struct __x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinitionVtbl* lpVtbl;
-    };
-
-    
-    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition;
-#endif /* !defined(____x_ABI_CWindows_CMedia_CEffects_CISlowMotionEffectDefinition_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CMedia_CEffects_CIVideoCompositor_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CEffects_CIVideoCompositor_INTERFACE_DEFINED__

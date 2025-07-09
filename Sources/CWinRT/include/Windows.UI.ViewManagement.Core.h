@@ -625,6 +625,10 @@ enum __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewKind
     __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewKind_Keyboard = 1,
     __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewKind_Handwriting = 2,
     __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewKind_Emoji = 3,
+    __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewKind_Symbols = 4,
+    __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewKind_Clipboard = 5,
+    __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewKind_Dictation = 6,
+    __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewKind_Gamepad = 7,
 };
 
 enum __x_ABI_CWindows_CUI_CViewManagement_CCore_CCoreInputViewOcclusionKind

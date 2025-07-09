@@ -639,6 +639,7 @@ enum __x_ABI_CWindows_CSystem_CDiagnostics_CDiagnosticActionState
     __x_ABI_CWindows_CSystem_CDiagnostics_CDiagnosticActionState_Detecting = 3,
     __x_ABI_CWindows_CSystem_CDiagnostics_CDiagnosticActionState_Resolving = 4,
     __x_ABI_CWindows_CSystem_CDiagnostics_CDiagnosticActionState_VerifyingResolution = 5,
+    __x_ABI_CWindows_CSystem_CDiagnostics_CDiagnosticActionState_Executing = 6,
 };
 
 #if !defined(____x_ABI_CWindows_CSystem_CDiagnostics_CIDiagnosticActionResult_INTERFACE_DEFINED__)

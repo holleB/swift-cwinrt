@@ -1215,6 +1215,7 @@ enum __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEAdvertiseme
     __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEAdvertisementType_ScannableUndirected = 2,
     __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEAdvertisementType_NonConnectableUndirected = 3,
     __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEAdvertisementType_ScanResponse = 4,
+    __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEAdvertisementType_Extended = 5,
 };
 
 enum __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEAdvertisementWatcherStatus
@@ -1230,6 +1231,7 @@ enum __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEScanningMod
     {
         __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEScanningMode_Passive = 0,
     __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEScanningMode_Active = 1,
+    __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEScanningMode_None = 2,
 };
 
 #if !defined(____x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CIBluetoothLEAdvertisement_INTERFACE_DEFINED__)
@@ -1474,7 +1476,7 @@ enum __x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CBluetoothLEScanningMod
         BYTE* value);
     HRESULT (STDMETHODCALLTYPE* get_TxPowerLevel)(__x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CIBluetoothLEAdvertisementDataTypesStatics* This,
         BYTE* value);
-    HRESULT (STDMETHODCALLTYPE* get_SlaveConnectionIntervalRange)(__x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CIBluetoothLEAdvertisementDataTypesStatics* This,
+    HRESULT (STDMETHODCALLTYPE* get_PeripheralConnectionIntervalRange)(__x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CIBluetoothLEAdvertisementDataTypesStatics* This,
         BYTE* value);
     HRESULT (STDMETHODCALLTYPE* get_ServiceSolicitation16BitUuids)(__x_ABI_CWindows_CDevices_CBluetooth_CAdvertisement_CIBluetoothLEAdvertisementDataTypesStatics* This,
         BYTE* value);

@@ -2380,6 +2380,7 @@ enum __x_ABI_CWindows_CStorage_CProvider_CStorageProviderHydrationPolicyModifier
     __x_ABI_CWindows_CStorage_CProvider_CStorageProviderHydrationPolicyModifier_ValidationRequired = 0x1,
     __x_ABI_CWindows_CStorage_CProvider_CStorageProviderHydrationPolicyModifier_StreamingAllowed = 0x2,
     __x_ABI_CWindows_CStorage_CProvider_CStorageProviderHydrationPolicyModifier_AutoDehydrationAllowed = 0x4,
+    __x_ABI_CWindows_CStorage_CProvider_CStorageProviderHydrationPolicyModifier_AllowFullRestartHydration = 0x8,
 };
 
 enum __x_ABI_CWindows_CStorage_CProvider_CStorageProviderInSyncPolicy

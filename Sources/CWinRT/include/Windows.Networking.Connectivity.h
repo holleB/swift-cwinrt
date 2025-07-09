@@ -2911,7 +2911,10 @@ enum __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkAuthenticationType
     __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkAuthenticationType_RsnaPsk = 8,
     __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkAuthenticationType_Ihv = 9,
     __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkAuthenticationType_Wpa3 = 10,
+    __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkAuthenticationType_Wpa3Enterprise192Bits = 10,
     __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkAuthenticationType_Wpa3Sae = 11,
+    __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkAuthenticationType_Owe = 12,
+    __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkAuthenticationType_Wpa3Enterprise = 13,
 };
 
 enum __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkConnectivityLevel
@@ -2942,6 +2945,8 @@ enum __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkEncryptionType
     __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkEncryptionType_WpaUseGroup = 7,
     __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkEncryptionType_RsnUseGroup = 8,
     __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkEncryptionType_Ihv = 9,
+    __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkEncryptionType_Gcmp = 10,
+    __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkEncryptionType_Gcmp256 = 11,
 };
 
 enum __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkTypes
@@ -2974,6 +2979,8 @@ enum __x_ABI_CWindows_CNetworking_CConnectivity_CWwanDataClass
     __x_ABI_CWindows_CNetworking_CConnectivity_CWwanDataClass_Hsdpa = 0x8,
     __x_ABI_CWindows_CNetworking_CConnectivity_CWwanDataClass_Hsupa = 0x10,
     __x_ABI_CWindows_CNetworking_CConnectivity_CWwanDataClass_LteAdvanced = 0x20,
+    __x_ABI_CWindows_CNetworking_CConnectivity_CWwanDataClass_NewRadioNonStandalone = 0x40,
+    __x_ABI_CWindows_CNetworking_CConnectivity_CWwanDataClass_NewRadioStandalone = 0x80,
     __x_ABI_CWindows_CNetworking_CConnectivity_CWwanDataClass_Cdma1xRtt = 0x10000,
     __x_ABI_CWindows_CNetworking_CConnectivity_CWwanDataClass_Cdma1xEvdo = 0x20000,
     __x_ABI_CWindows_CNetworking_CConnectivity_CWwanDataClass_Cdma1xEvdoRevA = 0x40000,
