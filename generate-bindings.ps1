@@ -17,7 +17,9 @@ function Restore-Nuget {
     )
     $NugetDownloadPath = Join-Path $env:TEMP "nuget.exe"
     if (-not (Test-Path $NugetDownloadPath)) {
-        Invoke-WebRequest -Uri "https://dist.nuget.org/win-x86-commandline/latest/nuget.exe" -OutFile $NugetDownloadPath
+        Write-Host "nuget.exe not found at $NugetDownloadPath" -ForegroundColor Red
+        Write-Host "Please download nuget.exe manually from https://www.nuget.org/downloads and place it in your TEMP directory." -ForegroundColor Yellow
+        exit 1
     }
 
     $Projections = Get-Content -Path $PSScriptRoot\projections.json | ConvertFrom-Json
