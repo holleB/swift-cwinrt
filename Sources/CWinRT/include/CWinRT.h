@@ -5,6 +5,7 @@
 #include <minwindef.h>
 #include <winnt.h>
 #include <combaseapi.h> // IUnknown, CoCreateInstance
+#include <inspectable.h> // IInspectable
 #include <oleauto.h> // BSTR, Sys***String***
 #include <roapi.h> // Ro***
 #include "RestrictedErrorInfo.h" // IRestrictedErrorInfo (C definition)
@@ -16,6 +17,7 @@
 #undef FindText
 #undef GetClassName
 #undef GetObject
+#undef GetGlyphIndices
 
 #define ENABLE_WINRT_EXPERIMENTAL_TYPES
 
@@ -24,6 +26,7 @@
 
 #include "CppInteropWorkaround.h" // TODO(WIN-860): Remove workaround once C++ interop issues with WinSDK.GUID are fixed.
 #include "MemoryBuffer.h" // IMemoryBufferByteAccess (C definition)
+#include "WeakReference.h" // IWeakReference[Source] (C definition)
 #include "robuffer.h" // IBufferByteAccess (C definition)
 #include "Microsoft.Graphics.Canvas.h"
 #include "Microsoft.Graphics.Canvas.Brushes.h"
@@ -37,6 +40,8 @@
 #include "Microsoft.Graphics.Canvas.UI.Xaml.h"
 #include "Microsoft.Graphics.DirectX.h"
 #include "Microsoft.Graphics.Display.h"
+#include "Microsoft.Graphics.Imaging.h"
+#include "Microsoft.Security.Authentication.OAuth.h"
 #include "Microsoft.UI.h"
 #include "Microsoft.UI.Composition.h"
 #include "Microsoft.UI.Composition.Core.h"
@@ -77,22 +82,38 @@
 #include "Microsoft.UI.Xaml.Shapes.h"
 #include "Microsoft.UI.Xaml.XamlTypeInfo.h"
 #include "Microsoft.Web.WebView2.Core.h"
+#include "Microsoft.Windows.AI.h"
+#include "Microsoft.Windows.AI.ContentSafety.h"
+#include "Microsoft.Windows.AI.Imaging.h"
+#include "Microsoft.Windows.AI.Text.h"
 #include "Microsoft.Windows.AppLifecycle.h"
 #include "Microsoft.Windows.AppNotifications.h"
 #include "Microsoft.Windows.AppNotifications.Builder.h"
+#include "Microsoft.Windows.ApplicationModel.Background.h"
+#include "Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.h"
 #include "Microsoft.Windows.ApplicationModel.DynamicDependency.h"
 #include "Microsoft.Windows.ApplicationModel.Resources.h"
 #include "Microsoft.Windows.ApplicationModel.WindowsAppRuntime.h"
+#include "Microsoft.Windows.BadgeNotifications.h"
+#include "Microsoft.Windows.Globalization.h"
 #include "Microsoft.Windows.Management.Deployment.h"
+#include "Microsoft.Windows.Media.Capture.h"
 #include "Microsoft.Windows.PushNotifications.h"
 #include "Microsoft.Windows.Security.AccessControl.h"
+#include "Microsoft.Windows.Storage.h"
 #include "Microsoft.Windows.System.h"
 #include "Microsoft.Windows.System.Power.h"
 #include "Microsoft.Windows.Widgets.h"
 #include "Microsoft.Windows.Widgets.Feeds.Providers.h"
+#include "Microsoft.Windows.Widgets.Notifications.h"
 #include "Microsoft.Windows.Widgets.Providers.h"
+#include "Microsoft.Windows.Workloads.h"
+#include "Windows.AI.Actions.h"
+#include "Windows.AI.Actions.Hosting.h"
+#include "Windows.AI.Actions.Provider.h"
 #include "Windows.AI.MachineLearning.h"
 #include "Windows.AI.MachineLearning.Preview.h"
+#include "Windows.AI.ModelContextProtocol.h"
 #include "Windows.ApplicationModel.h"
 #include "Windows.ApplicationModel.Activation.h"
 #include "Windows.ApplicationModel.AppExtensions.h"
@@ -119,7 +140,9 @@
 #include "Windows.ApplicationModel.Email.DataProvider.h"
 #include "Windows.ApplicationModel.ExtendedExecution.h"
 #include "Windows.ApplicationModel.ExtendedExecution.Foreground.h"
+#include "Windows.ApplicationModel.Holographic.h"
 #include "Windows.ApplicationModel.LockScreen.h"
+#include "Windows.ApplicationModel.PackageExtensions.h"
 #include "Windows.ApplicationModel.Payments.h"
 #include "Windows.ApplicationModel.Payments.Provider.h"
 #include "Windows.ApplicationModel.Preview.Holographic.h"
@@ -169,6 +192,7 @@
 #include "Windows.Devices.Enumeration.Pnp.h"
 #include "Windows.Devices.Geolocation.h"
 #include "Windows.Devices.Geolocation.Geofencing.h"
+#include "Windows.Devices.Geolocation.Provider.h"
 #include "Windows.Devices.Gpio.h"
 #include "Windows.Devices.Gpio.Provider.h"
 #include "Windows.Devices.Haptics.h"
@@ -233,7 +257,9 @@
 #include "Windows.Graphics.Imaging.h"
 #include "Windows.Graphics.Printing.h"
 #include "Windows.Graphics.Printing.OptionDetails.h"
+#include "Windows.Graphics.Printing.PrintSupport.h"
 #include "Windows.Graphics.Printing.PrintTicket.h"
+#include "Windows.Graphics.Printing.ProtectedPrint.h"
 #include "Windows.Graphics.Printing.Workflow.h"
 #include "Windows.Graphics.Printing3D.h"
 #include "Windows.Management.h"
@@ -241,6 +267,7 @@
 #include "Windows.Management.Deployment.h"
 #include "Windows.Management.Deployment.Preview.h"
 #include "Windows.Management.Policies.h"
+#include "Windows.Management.Setup.h"
 #include "Windows.Management.Update.h"
 #include "Windows.Management.Workplace.h"
 #include "Windows.Media.h"
@@ -324,6 +351,7 @@
 #include "Windows.Security.DataProtection.h"
 #include "Windows.Security.EnterpriseData.h"
 #include "Windows.Security.ExchangeActiveSyncProvisioning.h"
+#include "Windows.Security.Isolation.h"
 #include "Windows.Services.Cortana.h"
 #include "Windows.Services.Maps.h"
 #include "Windows.Services.Maps.Guidance.h"
@@ -347,6 +375,7 @@
 #include "Windows.System.Diagnostics.Telemetry.h"
 #include "Windows.System.Diagnostics.TraceReporting.h"
 #include "Windows.System.Display.h"
+#include "Windows.System.Implementation.FileExplorer.h"
 #include "Windows.System.Inventory.h"
 #include "Windows.System.Power.h"
 #include "Windows.System.Power.Diagnostics.h"
@@ -354,6 +383,8 @@
 #include "Windows.System.Profile.h"
 #include "Windows.System.Profile.SystemManufacturers.h"
 #include "Windows.System.RemoteDesktop.h"
+#include "Windows.System.RemoteDesktop.Input.h"
+#include "Windows.System.RemoteDesktop.Provider.h"
 #include "Windows.System.RemoteSystems.h"
 #include "Windows.System.Threading.h"
 #include "Windows.System.Threading.Core.h"
@@ -383,11 +414,14 @@
 #include "Windows.UI.Input.Spatial.h"
 #include "Windows.UI.Notifications.h"
 #include "Windows.UI.Notifications.Management.h"
+#include "Windows.UI.Notifications.Preview.h"
 #include "Windows.UI.Popups.h"
 #include "Windows.UI.Shell.h"
 #include "Windows.UI.StartScreen.h"
 #include "Windows.UI.Text.h"
 #include "Windows.UI.Text.Core.h"
+#include "Windows.UI.UIAutomation.h"
+#include "Windows.UI.UIAutomation.Core.h"
 #include "Windows.UI.ViewManagement.h"
 #include "Windows.UI.ViewManagement.Core.h"
 #include "Windows.UI.WebUI.h"
@@ -426,4 +460,5 @@
 #include "Windows.Web.Syndication.h"
 #include "Windows.Web.UI.h"
 #include "Windows.Web.UI.Interop.h"
+#include "winrt_winmd.h"
 #pragma clang diagnostic pop

@@ -80,6 +80,12 @@ typedef interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIShareProvid
 
 #endif // ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage3_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4 __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackagePropertySet_FWD_DEFINED__
 #define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackagePropertySet_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackagePropertySet __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackagePropertySet;
@@ -2947,6 +2953,42 @@ enum __x_ABI_CWindows_CApplicationModel_CDataTransfer_CShareUITheme
     
     EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage3;
 #endif /* !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage3_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* add_ShareCanceled)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CApplicationModel__CDataTransfer__CDataPackage_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_ShareCanceled)(__x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4* This,
+        EventRegistrationToken token);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4Vtbl;
+
+    interface __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4;
+#endif /* !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackage4_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackagePropertySet_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CApplicationModel_CDataTransfer_CIDataPackagePropertySet_INTERFACE_DEFINED__

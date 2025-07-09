@@ -28,6 +28,108 @@
 
 #endif // ____x_ABI_CWindows_CManagement_CUpdate_CIPreviewBuildsState_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate;
+
+#endif // ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs;
+
+#endif // ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress;
+
+#endif // ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult;
+
+#endif // ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator;
+
+#endif // ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics;
+
+#endif // ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData;
+
+#endif // ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo;
+
+#endif // ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs;
+
+#endif // ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult;
+
+#endif // ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem;
+
+#endif // ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager;
+
+#endif // ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactory_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactory __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactory;
+
+#endif // ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactory_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs;
+
+#endif // ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions;
+
+#endif // ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactory_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactory_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactory __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactory;
+
+#endif // ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactory_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs;
+
+#endif // ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs_FWD_DEFINED__
+
 // Parameterized interface forward declarations (C)
 
 // Collection interface definitions
@@ -108,6 +210,626 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1_boolean __x_ABI_
     
     #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1_boolean_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItemVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem** result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItemVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItemVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItemVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItemVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItemVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItemVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+        UINT32 index,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItemVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItemVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem_INTERFACE_DEFINED__
+    
+typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem;
+
+#if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem;
+
+    typedef struct __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItemVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItemVtbl;
+
+    interface __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItemVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem;
+
+    typedef struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItemVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItemVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItemVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate** result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+        UINT32 index,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate** result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate** items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIReference_1_boolean_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIReference_1_boolean_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIReference_1_boolean __x_ABI_C__FIReference_1_boolean;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIReference_1_boolean;
+
+    typedef struct __x_ABI_C__FIReference_1_booleanVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIReference_1_boolean* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIReference_1_boolean* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIReference_1_boolean* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIReference_1_boolean* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIReference_1_boolean* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIReference_1_boolean* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_C__FIReference_1_boolean* This,
+        boolean* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIReference_1_booleanVtbl;
+
+    interface __x_ABI_C__FIReference_1_boolean
+    {
+        CONST_VTBL struct __x_ABI_C__FIReference_1_booleanVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIReference_1_boolean_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIReference_1_int_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIReference_1_int_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIReference_1_int __x_ABI_C__FIReference_1_int;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIReference_1_int;
+
+    typedef struct __x_ABI_C__FIReference_1_intVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIReference_1_int* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIReference_1_int* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIReference_1_int* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIReference_1_int* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIReference_1_int* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIReference_1_int* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_C__FIReference_1_int* This,
+        INT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIReference_1_intVtbl;
+
+    interface __x_ABI_C__FIReference_1_int
+    {
+        CONST_VTBL struct __x_ABI_C__FIReference_1_intVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIReference_1_int_INTERFACE_DEFINED__
+    
+typedef struct __x_ABI_CWindows_CFoundation_CDateTime __x_ABI_CWindows_CFoundation_CDateTime;
+
+#if !defined(____x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime;
+
+    typedef struct __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTimeVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Value)(__x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime* This,
+        struct __x_ABI_CWindows_CFoundation_CDateTime* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTimeVtbl;
+
+    interface __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime
+    {
+        CONST_VTBL struct __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTimeVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager_IInspectable __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager_IInspectable;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager_IInspectable* This,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager_IInspectableVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager_IInspectable_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateActionCompletedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateActionCompletedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateActionCompletedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateActionCompletedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateActionCompletedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateActionCompletedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateActionCompletedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateActionCompletedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateActionCompletedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateActionCompletedEventArgs* This,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* sender,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateActionCompletedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateActionCompletedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateActionCompletedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateActionCompletedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateAttentionRequiredReasonChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateAttentionRequiredReasonChangedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateAttentionRequiredReasonChangedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateAttentionRequiredReasonChangedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateAttentionRequiredReasonChangedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateAttentionRequiredReasonChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateAttentionRequiredReasonChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateAttentionRequiredReasonChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateAttentionRequiredReasonChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateAttentionRequiredReasonChangedEventArgs* This,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* sender,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateAttentionRequiredReasonChangedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateAttentionRequiredReasonChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateAttentionRequiredReasonChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateAttentionRequiredReasonChangedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateProgressChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateProgressChangedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateProgressChangedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateProgressChangedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateProgressChangedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateProgressChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateProgressChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateProgressChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateProgressChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateProgressChangedEventArgs* This,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* sender,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateProgressChangedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateProgressChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateProgressChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateProgressChangedEventArgs_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateScanCompletedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateScanCompletedEventArgs_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateScanCompletedEventArgs __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateScanCompletedEventArgs;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateScanCompletedEventArgs;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateScanCompletedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateScanCompletedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateScanCompletedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateScanCompletedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateScanCompletedEventArgs* This,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* sender,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateScanCompletedEventArgsVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateScanCompletedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateScanCompletedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateScanCompletedEventArgs_INTERFACE_DEFINED__
+    
 typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundation_CAsyncStatus;
 
 #ifndef ____x_ABI_CWindows_CFoundation_CCollections_CIPropertySet_FWD_DEFINED__
@@ -121,6 +843,76 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
     typedef interface __x_ABI_CWindows_CFoundation_CIAsyncInfo __x_ABI_CWindows_CFoundation_CIAsyncInfo;
 
 #endif // ____x_ABI_CWindows_CFoundation_CIAsyncInfo_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CIPropertyValue __x_ABI_CWindows_CFoundation_CIPropertyValue;
+
+#endif // ____x_ABI_CWindows_CFoundation_CIPropertyValue_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CFoundation_CIUriRuntimeClass_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CIUriRuntimeClass_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CIUriRuntimeClass __x_ABI_CWindows_CFoundation_CIUriRuntimeClass;
+
+#endif // ____x_ABI_CWindows_CFoundation_CIUriRuntimeClass_FWD_DEFINED__
+
+typedef enum __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAdministratorOptions __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAdministratorOptions;
+
+typedef enum __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAdministratorStatus __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAdministratorStatus;
+
+typedef enum __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason;
+
+enum __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAdministratorOptions
+    {
+        __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAdministratorOptions_None = 0,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAdministratorOptions_RequireAdministratorApprovalForScans = 0x1,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAdministratorOptions_RequireAdministratorApprovalForUpdates = 0x2,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAdministratorOptions_RequireAdministratorApprovalForActions = 0x4,
+};
+
+enum __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAdministratorStatus
+    {
+        __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAdministratorStatus_Succeeded = 0,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAdministratorStatus_NoAdministratorRegistered = 1,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAdministratorStatus_OtherAdministratorIsRegistered = 2,
+};
+
+enum __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason
+    {
+        __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_None = 0,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_SeekerUpdate = 1,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_ReadyToReboot = 2,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_NeedNonMeteredNetwork = 3,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_NeedUserAgreementForMeteredNetwork = 4,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_NeedNetwork = 5,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_NeedMoreSpace = 6,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_BatterySaverEnabled = 7,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_NeedUserInteraction = 8,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_NeedUserAgreementForPolicy = 9,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_CompatibilityError = 10,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_NeedUserInteractionForEula = 11,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_NeedUserInteractionForCta = 12,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_Regulated = 13,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_ExternalReboot = 14,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_OtherUpdate = 15,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_BlockedByProvider = 16,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_BlockedByPostRebootFailure = 17,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_UserEngaged = 18,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_BlockedByBattery = 19,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_Exclusivity = 20,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_BlockedBySerialization = 21,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_ConflictClass = 22,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_BlockedByAdminApproval = 23,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_BlockedByTooManyAttempts = 24,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_BlockedByFailure = 25,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_Demotion = 26,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_BlockedByActiveHours = 27,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_ScheduledForMaintenance = 28,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_PolicyScheduledInstallTime = 29,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_BlockedByOobe = 30,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_DeferredDuringOobe = 31,
+    __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason_DeferredForSustainableTime = 32,
+};
 
 #if !defined(____x_ABI_CWindows_CManagement_CUpdate_CIPreviewBuildsManager_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CManagement_CUpdate_CIPreviewBuildsManager_INTERFACE_DEFINED__
@@ -228,4 +1020,774 @@ typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundat
     
     EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CUpdate_CIPreviewBuildsState;
 #endif /* !defined(____x_ABI_CWindows_CManagement_CUpdate_CIPreviewBuildsState_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ProviderId)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_UpdateId)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_Title)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_Description)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsFeatureUpdate)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsMinorImpact)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsSecurity)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsCritical)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsForOS)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsDriver)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsMandatory)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsUrgent)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsSeeker)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_MoreInfoUrl)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** value);
+    HRESULT (STDMETHODCALLTYPE* get_SupportUrl)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** value);
+    HRESULT (STDMETHODCALLTYPE* get_IsEulaAccepted)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_EulaText)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_Deadline)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime** value);
+    HRESULT (STDMETHODCALLTYPE* get_AttentionRequiredInfo)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo** value);
+    HRESULT (STDMETHODCALLTYPE* get_ActionResult)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult** value);
+    HRESULT (STDMETHODCALLTYPE* get_CurrentAction)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_ActionProgress)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress** value);
+    HRESULT (STDMETHODCALLTYPE* GetPropertyValue)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This,
+        HSTRING propertyName,
+        IInspectable** result);
+    HRESULT (STDMETHODCALLTYPE* AcceptEula)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate* This);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Update)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs* This,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate** value);
+    HRESULT (STDMETHODCALLTYPE* get_Action)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_Succeeded)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_ExtendedError)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs* This,
+        HRESULT* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionCompletedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgressVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Action)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_Progress)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress* This,
+        DOUBLE* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgressVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgressVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Timestamp)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult* This,
+        struct __x_ABI_CWindows_CFoundation_CDateTime* value);
+    HRESULT (STDMETHODCALLTYPE* get_Succeeded)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_ExtendedError)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult* This,
+        HRESULT* value);
+    HRESULT (STDMETHODCALLTYPE* get_Action)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult* This,
+        HSTRING* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResultVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResultVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionResult_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* StartAdministratorScan)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator* This);
+    HRESULT (STDMETHODCALLTYPE* ApproveWindowsUpdateAction)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator* This,
+        HSTRING updateId,
+        HSTRING action);
+    HRESULT (STDMETHODCALLTYPE* RevokeWindowsUpdateActionApproval)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator* This,
+        HSTRING updateId,
+        HSTRING action);
+    HRESULT (STDMETHODCALLTYPE* ApproveWindowsUpdate)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator* This,
+        HSTRING updateId,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData* approvalData);
+    HRESULT (STDMETHODCALLTYPE* RevokeWindowsUpdateApproval)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator* This,
+        HSTRING updateId);
+    HRESULT (STDMETHODCALLTYPE* GetUpdates)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStaticsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetRegisteredAdministrator)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics* This,
+        HSTRING organizationName,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult** result);
+    HRESULT (STDMETHODCALLTYPE* RegisterForAdministration)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics* This,
+        HSTRING organizationName,
+        enum __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAdministratorOptions options,
+        enum __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAdministratorStatus* result);
+    HRESULT (STDMETHODCALLTYPE* UnregisterForAdministration)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics* This,
+        HSTRING organizationName,
+        enum __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAdministratorStatus* result);
+    HRESULT (STDMETHODCALLTYPE* GetRegisteredAdministratorName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics* This,
+        HSTRING* result);
+    HRESULT (STDMETHODCALLTYPE* RequestRestart)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics* This,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* restartOptions,
+        HSTRING* result);
+    HRESULT (STDMETHODCALLTYPE* CancelRestartRequest)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics* This,
+        HSTRING requestRestartToken);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStaticsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStaticsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministratorStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalDataVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Seeker)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData* This,
+        __x_ABI_C__FIReference_1_boolean** value);
+    HRESULT (STDMETHODCALLTYPE* put_Seeker)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData* This,
+        __x_ABI_C__FIReference_1_boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_AllowDownloadOnMetered)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData* This,
+        __x_ABI_C__FIReference_1_boolean** value);
+    HRESULT (STDMETHODCALLTYPE* put_AllowDownloadOnMetered)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData* This,
+        __x_ABI_C__FIReference_1_boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_ComplianceDeadlineInDays)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData* This,
+        __x_ABI_C__FIReference_1_int** value);
+    HRESULT (STDMETHODCALLTYPE* put_ComplianceDeadlineInDays)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData* This,
+        __x_ABI_C__FIReference_1_int* value);
+    HRESULT (STDMETHODCALLTYPE* get_ComplianceGracePeriodInDays)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData* This,
+        __x_ABI_C__FIReference_1_int** value);
+    HRESULT (STDMETHODCALLTYPE* put_ComplianceGracePeriodInDays)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData* This,
+        __x_ABI_C__FIReference_1_int* value);
+    HRESULT (STDMETHODCALLTYPE* get_OptOutOfAutoReboot)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData* This,
+        __x_ABI_C__FIReference_1_boolean** value);
+    HRESULT (STDMETHODCALLTYPE* put_OptOutOfAutoReboot)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData* This,
+        __x_ABI_C__FIReference_1_boolean* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalDataVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalDataVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateApprovalData_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfoVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Reason)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo* This,
+        enum __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason* value);
+    HRESULT (STDMETHODCALLTYPE* get_Timestamp)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo* This,
+        __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfoVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfoVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredInfo_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Update)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs* This,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate** value);
+    HRESULT (STDMETHODCALLTYPE* get_Reason)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs* This,
+        enum __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAttentionRequiredReason* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAttentionRequiredReasonChangedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Administrator)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult* This,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateAdministrator** value);
+    HRESULT (STDMETHODCALLTYPE* get_Status)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult* This,
+        enum __x_ABI_CWindows_CManagement_CUpdate_CWindowsUpdateAdministratorStatus* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResultVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResultVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateGetAdministratorResult_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItemVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ProviderId)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_UpdateId)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_Timestamp)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem* This,
+        struct __x_ABI_CWindows_CFoundation_CDateTime* value);
+    HRESULT (STDMETHODCALLTYPE* get_Title)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_Description)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_MoreInfoUrl)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** value);
+    HRESULT (STDMETHODCALLTYPE* get_Category)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_Operation)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem* This,
+        HSTRING* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItemVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItemVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateItem_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* add_ScanningStateChanged)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_ScanningStateChanged)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_WorkingStateChanged)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_WorkingStateChanged)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_ProgressChanged)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateProgressChangedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_ProgressChanged)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_AttentionRequiredReasonChanged)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateAttentionRequiredReasonChangedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_AttentionRequiredReasonChanged)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_ActionCompleted)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateActionCompletedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_ActionCompleted)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* add_ScanCompleted)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateManager___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateScanCompletedEventArgs* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_ScanCompleted)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* get_IsScanning)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_IsWorking)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_LastSuccessfulScanTimestamp)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        __x_ABI_C__FIReference_1___x_ABI_CWindows__CFoundation__CDateTime** value);
+    HRESULT (STDMETHODCALLTYPE* GetApplicableUpdates)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate** result);
+    HRESULT (STDMETHODCALLTYPE* GetMostRecentCompletedUpdates)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        INT32 count,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem** result);
+    HRESULT (STDMETHODCALLTYPE* GetMostRecentCompletedUpdatesAsync)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        INT32 count,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdateItem** operation);
+    HRESULT (STDMETHODCALLTYPE* StartScan)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager* This,
+        boolean userInitiated);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateInstance)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactory* This,
+        HSTRING clientId,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManager** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactoryVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactory
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactory;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateManagerFactory_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Update)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs* This,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdate** value);
+    HRESULT (STDMETHODCALLTYPE* get_ActionProgress)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs* This,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateActionProgress** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateProgressChangedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Title)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_Title)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_Description)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_Description)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_MoreInfoUrl)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** value);
+    HRESULT (STDMETHODCALLTYPE* put_MoreInfoUrl)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* value);
+    HRESULT (STDMETHODCALLTYPE* get_ComplianceDeadlineInDays)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* put_ComplianceDeadlineInDays)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This,
+        INT32 value);
+    HRESULT (STDMETHODCALLTYPE* get_ComplianceGracePeriodInDays)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This,
+        INT32* value);
+    HRESULT (STDMETHODCALLTYPE* put_ComplianceGracePeriodInDays)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This,
+        INT32 value);
+    HRESULT (STDMETHODCALLTYPE* get_OrganizationName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* put_OrganizationName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This,
+        HSTRING value);
+    HRESULT (STDMETHODCALLTYPE* get_OptOutOfAutoReboot)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_OptOutOfAutoReboot)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactory_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactory_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactoryVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactory* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactory* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactory* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactory* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactory* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactory* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateInstance)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactory* This,
+        HSTRING title,
+        HSTRING description,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* moreInfoUrl,
+        INT32 complianceDeadlineInDays,
+        INT32 complianceGracePeriodInDays,
+        __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptions** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactoryVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactory
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactoryVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactory;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateRestartRequestOptionsFactory_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ProviderId)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs* This,
+        HSTRING* value);
+    HRESULT (STDMETHODCALLTYPE* get_Succeeded)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* get_ExtendedError)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs* This,
+        HRESULT* value);
+    HRESULT (STDMETHODCALLTYPE* get_Updates)(__x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CManagement__CUpdate__CWindowsUpdate** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CManagement_CUpdate_CIWindowsUpdateScanCompletedEventArgs_INTERFACE_DEFINED__) */
     

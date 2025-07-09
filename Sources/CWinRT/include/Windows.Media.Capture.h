@@ -6,6 +6,7 @@
 #include <EventToken.h>
 #include <windowscontracts.h>
 #include "Windows.Foundation.h"
+#include "Windows.Devices.Enumeration.h"
 #include "Windows.Graphics.DirectX.Direct3D11.h"
 #include "Windows.Graphics.Imaging.h"
 #include "Windows.Media.h"
@@ -16,9 +17,11 @@
 #include "Windows.Media.Effects.h"
 #include "Windows.Media.MediaProperties.h"
 #include "Windows.Security.Authentication.Web.h"
+#include "Windows.Security.Credentials.h"
 #include "Windows.Storage.h"
 #include "Windows.Storage.Streams.h"
 #include "Windows.System.h"
+#include "Windows.UI.WindowManagement.h"
 // Importing Collections header
 #include "Windows.Foundation.Collections.h"
 
@@ -527,6 +530,12 @@ typedef interface __x_ABI_CWindows_CMedia_CCapture_CIRecordLimitationExceededEve
 
 #endif // ____x_ABI_CWindows_CMedia_CCapture_CIMediaCapture6_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7 __x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7;
+
+#endif // ____x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureDeviceExclusiveControlStatusChangedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureDeviceExclusiveControlStatusChangedEventArgs_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureDeviceExclusiveControlStatusChangedEventArgs __x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureDeviceExclusiveControlStatusChangedEventArgs;
@@ -581,11 +590,23 @@ typedef interface __x_ABI_CWindows_CMedia_CCapture_CIRecordLimitationExceededEve
 
 #endif // ____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings6_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7 __x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7;
+
+#endif // ____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CMedia_CCapture_CIMediaCapturePauseResult_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CCapture_CIMediaCapturePauseResult_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CMedia_CCapture_CIMediaCapturePauseResult __x_ABI_CWindows_CMedia_CCapture_CIMediaCapturePauseResult;
 
 #endif // ____x_ABI_CWindows_CMedia_CCapture_CIMediaCapturePauseResult_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher_FWD_DEFINED__
+#define ____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher __x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher;
+
+#endif // ____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureSettings_FWD_DEFINED__
 #define ____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureSettings_FWD_DEFINED__
@@ -4229,6 +4250,38 @@ typedef enum __x_ABI_CWindows_CMedia_CDevices_CMediaCaptureFocusState __x_ABI_CW
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CMediaCapture___x_ABI_CWindows__CMedia__CCapture__CPhotoConfirmationCapturedEventArgs_INTERFACE_DEFINED__
     
+#if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CMediaCaptureRelativePanelWatcher_IInspectable_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CMediaCaptureRelativePanelWatcher_IInspectable_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CMediaCaptureRelativePanelWatcher_IInspectable __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CMediaCaptureRelativePanelWatcher_IInspectable;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CMediaCaptureRelativePanelWatcher_IInspectable;
+
+    typedef struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CMediaCaptureRelativePanelWatcher_IInspectableVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CMediaCaptureRelativePanelWatcher_IInspectable* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CMediaCaptureRelativePanelWatcher_IInspectable* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CMediaCaptureRelativePanelWatcher_IInspectable* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CMediaCaptureRelativePanelWatcher_IInspectable* This,
+        __x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher* sender,
+        IInspectable* args);
+
+        END_INTERFACE
+    } __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CMediaCaptureRelativePanelWatcher_IInspectableVtbl;
+
+    interface __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CMediaCaptureRelativePanelWatcher_IInspectable
+    {
+        CONST_VTBL struct __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CMediaCaptureRelativePanelWatcher_IInspectableVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CMediaCaptureRelativePanelWatcher_IInspectable_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CScreenCapture___x_ABI_CWindows__CMedia__CCapture__CSourceSuspensionChangedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CScreenCapture___x_ABI_CWindows__CMedia__CCapture__CSourceSuspensionChangedEventArgs_INTERFACE_DEFINED__
 
@@ -4261,6 +4314,8 @@ typedef enum __x_ABI_CWindows_CMedia_CDevices_CMediaCaptureFocusState __x_ABI_CW
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CScreenCapture___x_ABI_CWindows__CMedia__CCapture__CSourceSuspensionChangedEventArgs_INTERFACE_DEFINED__
     
+typedef enum __x_ABI_CWindows_CDevices_CEnumeration_CPanel __x_ABI_CWindows_CDevices_CEnumeration_CPanel;
+
 typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundation_CAsyncStatus;
 
 #ifndef ____x_ABI_CWindows_CFoundation_CCollections_CIPropertySet_FWD_DEFINED__
@@ -4686,6 +4741,12 @@ typedef enum __x_ABI_CWindows_CMedia_CDevices_CMediaCapturePauseBehavior __x_ABI
 
 #endif // ____x_ABI_CWindows_CSecurity_CAuthentication_CWeb_CIWebAuthenticationResult_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CSecurity_CCredentials_CIPasswordCredential_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSecurity_CCredentials_CIPasswordCredential_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSecurity_CCredentials_CIPasswordCredential __x_ABI_CWindows_CSecurity_CCredentials_CIPasswordCredential;
+
+#endif // ____x_ABI_CWindows_CSecurity_CCredentials_CIPasswordCredential_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CStorage_CIStorageFolder_FWD_DEFINED__
 #define ____x_ABI_CWindows_CStorage_CIStorageFolder_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CStorage_CIStorageFolder __x_ABI_CWindows_CStorage_CIStorageFolder;
@@ -4743,6 +4804,12 @@ typedef enum __x_ABI_CWindows_CMedia_CDevices_CMediaCapturePauseBehavior __x_ABI
 typedef enum __x_ABI_CWindows_CSystem_CVirtualKey __x_ABI_CWindows_CSystem_CVirtualKey;
 
 typedef enum __x_ABI_CWindows_CSystem_CVirtualKeyModifiers __x_ABI_CWindows_CSystem_CVirtualKeyModifiers;
+
+#ifndef ____x_ABI_CWindows_CUI_CWindowManagement_CIDisplayRegion_FWD_DEFINED__
+#define ____x_ABI_CWindows_CUI_CWindowManagement_CIDisplayRegion_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CUI_CWindowManagement_CIDisplayRegion __x_ABI_CWindows_CUI_CWindowManagement_CIDisplayRegion;
+
+#endif // ____x_ABI_CWindows_CUI_CWindowManagement_CIDisplayRegion_FWD_DEFINED__
 
 typedef enum __x_ABI_CWindows_CMedia_CCapture_CAppBroadcastCameraCaptureState __x_ABI_CWindows_CMedia_CCapture_CAppBroadcastCameraCaptureState;
 
@@ -5087,6 +5154,12 @@ enum __x_ABI_CWindows_CMedia_CCapture_CKnownVideoProfile
     __x_ABI_CWindows_CMedia_CCapture_CKnownVideoProfile_HdrWithWcgVideo = 7,
     __x_ABI_CWindows_CMedia_CCapture_CKnownVideoProfile_HdrWithWcgPhoto = 8,
     __x_ABI_CWindows_CMedia_CCapture_CKnownVideoProfile_VideoHdr8 = 9,
+};
+
+enum __x_ABI_CWindows_CMedia_CCapture_CMediaCaptureDeviceExclusiveControlReleaseMode
+    {
+        __x_ABI_CWindows_CMedia_CCapture_CMediaCaptureDeviceExclusiveControlReleaseMode_OnDispose = 0,
+    __x_ABI_CWindows_CMedia_CCapture_CMediaCaptureDeviceExclusiveControlReleaseMode_OnAllStreamsStopped = 1,
 };
 
 enum __x_ABI_CWindows_CMedia_CCapture_CMediaCaptureDeviceExclusiveControlStatus
@@ -8872,6 +8945,41 @@ struct __x_ABI_CWindows_CMedia_CCapture_CWhiteBalanceGain
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCapture_CIMediaCapture6;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CCapture_CIMediaCapture6_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CreateRelativePanelWatcher)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7* This,
+        enum __x_ABI_CWindows_CMedia_CCapture_CStreamingCaptureMode captureMode,
+        __x_ABI_CWindows_CUI_CWindowManagement_CIDisplayRegion* displayRegion,
+        __x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7Vtbl;
+
+    interface __x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CCapture_CIMediaCapture7_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureDeviceExclusiveControlStatusChangedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureDeviceExclusiveControlStatusChangedEventArgs_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureDeviceExclusiveControlStatusChangedEventArgsVtbl
@@ -9225,6 +9333,45 @@ struct __x_ABI_CWindows_CMedia_CCapture_CWhiteBalanceGain
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings6;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings6_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_DeviceUriPasswordCredential)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7* This,
+        __x_ABI_CWindows_CSecurity_CCredentials_CIPasswordCredential** value);
+    HRESULT (STDMETHODCALLTYPE* put_DeviceUriPasswordCredential)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7* This,
+        __x_ABI_CWindows_CSecurity_CCredentials_CIPasswordCredential* value);
+    HRESULT (STDMETHODCALLTYPE* get_DeviceUri)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass** value);
+    HRESULT (STDMETHODCALLTYPE* put_DeviceUri)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7* This,
+        __x_ABI_CWindows_CFoundation_CIUriRuntimeClass* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7Vtbl;
+
+    interface __x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureInitializationSettings7_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CMedia_CCapture_CIMediaCapturePauseResult_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CCapture_CIMediaCapturePauseResult_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CMedia_CCapture_CIMediaCapturePauseResultVtbl
@@ -9259,6 +9406,46 @@ struct __x_ABI_CWindows_CMedia_CCapture_CWhiteBalanceGain
     
     EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCapture_CIMediaCapturePauseResult;
 #endif /* !defined(____x_ABI_CWindows_CMedia_CCapture_CIMediaCapturePauseResult_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcherVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_RelativePanel)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher* This,
+        enum __x_ABI_CWindows_CDevices_CEnumeration_CPanel* value);
+    HRESULT (STDMETHODCALLTYPE* add_Changed)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher* This,
+        __x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CMedia__CCapture__CMediaCaptureRelativePanelWatcher_IInspectable* handler,
+        EventRegistrationToken* token);
+    HRESULT (STDMETHODCALLTYPE* remove_Changed)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher* This,
+        EventRegistrationToken token);
+    HRESULT (STDMETHODCALLTYPE* Start)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher* This);
+    HRESULT (STDMETHODCALLTYPE* Stop)(__x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher* This);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcherVtbl;
+
+    interface __x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcherVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher;
+#endif /* !defined(____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureRelativePanelWatcher_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureSettings_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CMedia_CCapture_CIMediaCaptureSettings_INTERFACE_DEFINED__

@@ -78,6 +78,12 @@ typedef interface __x_ABI_CWindows_CNetworking_CConnectivity_CINetworkStatusChan
 
 #endif // ____x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile5_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6 __x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6;
+
+#endif // ____x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfileFilter_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfileFilter_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfileFilter __x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfileFilter;
@@ -2828,6 +2834,8 @@ typedef enum __x_ABI_CWindows_CNetworking_CConnectivity_CCellularApnAuthenticati
 
 typedef enum __x_ABI_CWindows_CNetworking_CConnectivity_CDataUsageGranularity __x_ABI_CWindows_CNetworking_CConnectivity_CDataUsageGranularity;
 
+typedef enum __x_ABI_CWindows_CNetworking_CConnectivity_CDomainAuthenticationKind __x_ABI_CWindows_CNetworking_CConnectivity_CDomainAuthenticationKind;
+
 typedef enum __x_ABI_CWindows_CNetworking_CConnectivity_CDomainConnectivityLevel __x_ABI_CWindows_CNetworking_CConnectivity_CDomainConnectivityLevel;
 
 typedef enum __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkAuthenticationType __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkAuthenticationType;
@@ -2874,6 +2882,13 @@ enum __x_ABI_CWindows_CNetworking_CConnectivity_CDataUsageGranularity
     __x_ABI_CWindows_CNetworking_CConnectivity_CDataUsageGranularity_PerHour = 1,
     __x_ABI_CWindows_CNetworking_CConnectivity_CDataUsageGranularity_PerDay = 2,
     __x_ABI_CWindows_CNetworking_CConnectivity_CDataUsageGranularity_Total = 3,
+};
+
+enum __x_ABI_CWindows_CNetworking_CConnectivity_CDomainAuthenticationKind
+    {
+        __x_ABI_CWindows_CNetworking_CConnectivity_CDomainAuthenticationKind_None = 0,
+    __x_ABI_CWindows_CNetworking_CConnectivity_CDomainAuthenticationKind_Ldap = 1,
+    __x_ABI_CWindows_CNetworking_CConnectivity_CDomainAuthenticationKind_Tls = 2,
 };
 
 enum __x_ABI_CWindows_CNetworking_CConnectivity_CDomainConnectivityLevel
@@ -3440,6 +3455,40 @@ struct __x_ABI_CWindows_CNetworking_CConnectivity_CNetworkUsageStates
     
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile5;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile5_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* IsDomainAuthenticatedBy)(__x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6* This,
+        enum __x_ABI_CWindows_CNetworking_CConnectivity_CDomainAuthenticationKind kind,
+        boolean* result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6Vtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfile6_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfileFilter_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CConnectivity_CIConnectionProfileFilter_INTERFACE_DEFINED__
