@@ -1,3 +1,7 @@
+param(
+    [string]$SwiftWinRTExecutable = $null
+)
+
 function Get-SwiftWinRTVersion {
     $Projections = Get-Content -Path $PSScriptRoot\projections.json | ConvertFrom-Json
     return $Projections."swift-winrt"
@@ -11,6 +15,7 @@ function Get-PackageString {
         return "  <package id=""$($Package.Id)"" version=""$($Package.Version)"" />`n"
     }
 }
+
 function Restore-Nuget {
     param(
         [string]$PackagesDir
@@ -38,9 +43,11 @@ function Restore-Nuget {
         $PackagesConfigContent += Get-PackageString -Package $_
     }
     $PackagesConfigContent += "</packages>"
+
     if (-not (Test-Path "$PSScriptRoot\.packages")) {
         New-Item -ItemType Directory -Path "$PSScriptRoot\.packages" | Out-Null
     }
+
     $PackagesConfigPath = Join-Path $PSScriptRoot ".packages\packages.config"
     $PackagesConfigContent | Out-File -FilePath $PackagesConfigPath -Encoding ascii
 
@@ -50,13 +57,14 @@ function Restore-Nuget {
     }
 }
 
-function Get-WinMDInputs() {
+function Get-WinMDInputs {
     param(
-        $Package
+        $Package,
+        $PackagesDir
     )
     $Id = $Package.Id
     $Version = $Package.Version
-    return Get-ChildItem -Path $PackagesDir\$Id.$Version\ -Filter *.winmd -Recurse
+    return Get-ChildItem -Path "$PackagesDir\$Id.$Version\" -Filter *.winmd -Recurse
 }
 
 function Copy-Project {
@@ -72,27 +80,25 @@ function Copy-Project {
         if (Test-Path $ProjectDir) {
             Remove-Item -Path $ProjectDir -Recurse -Force
         }
-        Copy-Item -Path $OutputLocation\Sources\$ProjectName -Destination $ProjectDir -Recurse -Force
+        Copy-Item -Path "$OutputLocation\Sources\$ProjectName" -Destination $ProjectDir -Recurse -Force
     }
 }
 
-
-function Invoke-SwiftWinRT() {
+function Invoke-SwiftWinRT {
     param(
-        [string]$PackagesDir
+        [string]$PackagesDir,
+        [string]$SwiftWinRTExecutable
     )
-    $Projections = Get-Content -Path $PSScriptRoot\projections.json | ConvertFrom-Json
 
+    $Projections = Get-Content -Path $PSScriptRoot\projections.json | ConvertFrom-Json
     $SwiftWinRTVersion = Get-SwiftWinRTVersion
-    # write generated bindings to a temp directory since swiftwinrt will generate all dependencies and the CWinRT
     $OutputLocation = Join-Path $PSScriptRoot ".generated"
     if (Test-Path $OutputLocation) {
         Remove-Item -Path $OutputLocation -Recurse -Force
     }
 
-    $RspParams = "-output $OutputLocation`n"
+    $RspParams = "-output `"$OutputLocation`"`n"
 
-    # read projections.json and for each "include" write to -include param. for each "exclude" write to -exclude param
     $Projections.Include | ForEach-Object {
         $RspParams += "-include $_`n"
     }
@@ -101,25 +107,32 @@ function Invoke-SwiftWinRT() {
     }
 
     if ($Projections.Package) {
-        Get-WinMDInputs -Package $Package | ForEach-Object {
-            $RspParams += "-input $($_.FullName)`n"
+        Get-WinMDInputs -Package $Projections.Package -PackagesDir $PackagesDir | ForEach-Object {
+            $RspParams += "-input `"$($_.FullName)`"`n"
         }
     }
 
     $Projections.Packages | ForEach-Object {
-        Get-WinMDInputs -Package $Package | ForEach-Object {
-            $RspParams += "-input $($_.FullName)`n"
+        Get-WinMDInputs -Package $_ -PackagesDir $PackagesDir | ForEach-Object {
+            $RspParams += "-input `"$($_.FullName)`"`n"
         }
     }
+
     $Projections.Dependencies | ForEach-Object {
-        Get-WinMDInputs -Package $Package | ForEach-Object {
-            $RspParams += "-input $($_.FullName)`n"
+        Get-WinMDInputs -Package $_ -PackagesDir $PackagesDir | ForEach-Object {
+            $RspParams += "-input `"$($_.FullName)`"`n"
         }
     }
-    # write rsp params to file
+
     $RspFile = Join-Path $PSScriptRoot "swift-winrt.rsp"
     $RspParams | Out-File -FilePath $RspFile -Encoding ascii
-    & $PackagesDir\TheBrowserCompany.SwiftWinRT.$SwiftWinRTVersion\bin\swiftwinrt.exe "@$RspFile"
+
+    # Default path fallback
+    if (-not $SwiftWinRTExecutable) {
+        $SwiftWinRTExecutable = Join-Path $PackagesDir "TheBrowserCompany.SwiftWinRT.$SwiftWinRTVersion\bin\swiftwinrt.exe"
+    }
+
+    & $SwiftWinRTExecutable "@$RspFile"
 
     if ($LASTEXITCODE -ne 0) {
         Write-Host "swiftwinrt failed with error code $LASTEXITCODE" -ForegroundColor Red
@@ -137,5 +150,5 @@ function Invoke-SwiftWinRT() {
 
 $PackagesDir = Join-Path $PSScriptRoot ".packages"
 Restore-Nuget -PackagesDir $PackagesDir
-Invoke-SwiftWinRT -PackagesDir $PackagesDir
+Invoke-SwiftWinRT -PackagesDir $PackagesDir -SwiftWinRTExecutable $SwiftWinRTExecutable
 Write-Host "SwiftWinRT bindings generated successfully!" -ForegroundColor Green
