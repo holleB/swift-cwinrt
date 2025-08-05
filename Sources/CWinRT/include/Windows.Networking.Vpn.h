@@ -6,6 +6,7 @@
 #include <EventToken.h>
 #include <windowscontracts.h>
 #include "Windows.Foundation.h"
+#include "Windows.ApplicationModel.Activation.h"
 #include "Windows.Networking.h"
 #include "Windows.Networking.Sockets.h"
 #include "Windows.Security.Credentials.h"
@@ -44,6 +45,18 @@
     typedef interface __x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel4 __x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel4;
 
 #endif // ____x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel4_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5 __x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5;
+
+#endif // ____x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6 __x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6;
+
+#endif // ____x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CNetworking_CVpn_CIVpnChannelActivityEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CVpn_CIVpnChannelActivityEventArgs_FWD_DEFINED__
@@ -171,6 +184,18 @@
 
 #endif // ____x_ABI_CWindows_CNetworking_CVpn_CIVpnDomainNameInfoFactory_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs __x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs;
+
+#endif // ____x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperation_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperation_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperation __x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperation;
+
+#endif // ____x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperation_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CNetworking_CVpn_CIVpnInterfaceId_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CVpn_CIVpnInterfaceId_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CNetworking_CVpn_CIVpnInterfaceId __x_ABI_CWindows_CNetworking_CVpn_CIVpnInterfaceId;
@@ -278,6 +303,12 @@
     typedef interface __x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInProfile2 __x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInProfile2;
 
 #endif // ____x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInProfile2_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransport_FWD_DEFINED__
+#define ____x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransport_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransport __x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransport;
+
+#endif // ____x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransport_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CNetworking_CVpn_CIVpnProfile_FWD_DEFINED__
 #define ____x_ABI_CWindows_CNetworking_CVpn_CIVpnProfile_FWD_DEFINED__
@@ -2815,7 +2846,25 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows
     
     #endif // ____x_ABI_C__FITypedEventHandler_2___x_ABI_CWindows__CNetworking__CVpn__CVpnChannel___x_ABI_CWindows__CNetworking__CVpn__CVpnChannelActivityStateChangedArgs_INTERFACE_DEFINED__
     
+#ifndef ____x_ABI_CWindows_CApplicationModel_CActivation_CIActivatedEventArgs_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CActivation_CIActivatedEventArgs_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CActivation_CIActivatedEventArgs __x_ABI_CWindows_CApplicationModel_CActivation_CIActivatedEventArgs;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CActivation_CIActivatedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CApplicationModel_CActivation_CIActivatedEventArgsWithUser_FWD_DEFINED__
+#define ____x_ABI_CWindows_CApplicationModel_CActivation_CIActivatedEventArgsWithUser_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CApplicationModel_CActivation_CIActivatedEventArgsWithUser __x_ABI_CWindows_CApplicationModel_CActivation_CIActivatedEventArgsWithUser;
+
+#endif // ____x_ABI_CWindows_CApplicationModel_CActivation_CIActivatedEventArgsWithUser_FWD_DEFINED__
+
 typedef enum __x_ABI_CWindows_CFoundation_CAsyncStatus __x_ABI_CWindows_CFoundation_CAsyncStatus;
+
+#ifndef ____x_ABI_CWindows_CFoundation_CCollections_CIPropertySet_FWD_DEFINED__
+#define ____x_ABI_CWindows_CFoundation_CCollections_CIPropertySet_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CFoundation_CCollections_CIPropertySet __x_ABI_CWindows_CFoundation_CCollections_CIPropertySet;
+
+#endif // ____x_ABI_CWindows_CFoundation_CCollections_CIPropertySet_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
 #define ____x_ABI_CWindows_CFoundation_CIAsyncAction_FWD_DEFINED__
@@ -3280,6 +3329,78 @@ enum __x_ABI_CWindows_CNetworking_CVpn_CVpnRoutingPolicyType
     
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel4;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel4_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* AppendVpnReceivePacketBuffer)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5* This,
+        __x_ABI_CWindows_CNetworking_CVpn_CIVpnPacketBuffer* decapsulatedPacketBuffer);
+    HRESULT (STDMETHODCALLTYPE* AppendVpnSendPacketBuffer)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5* This,
+        __x_ABI_CWindows_CNetworking_CVpn_CIVpnPacketBuffer* encapsulatedPacketBuffer);
+    HRESULT (STDMETHODCALLTYPE* FlushVpnReceivePacketBuffers)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5* This);
+    HRESULT (STDMETHODCALLTYPE* FlushVpnSendPacketBuffers)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5* This);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5Vtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel5_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* ActivateForeground)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6* This,
+        HSTRING packageRelativeAppId,
+        __x_ABI_CWindows_CFoundation_CCollections_CIPropertySet* sharedContext,
+        __x_ABI_CWindows_CFoundation_CCollections_CIPropertySet** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6Vtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel6_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CNetworking_CVpn_CIVpnChannelActivityEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CVpn_CIVpnChannelActivityEventArgs_INTERFACE_DEFINED__
@@ -4055,6 +4176,76 @@ enum __x_ABI_CWindows_CNetworking_CVpn_CVpnRoutingPolicyType
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CVpn_CIVpnDomainNameInfoFactory;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CVpn_CIVpnDomainNameInfoFactory_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgsVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ProfileName)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs* This,
+        HSTRING* name);
+    HRESULT (STDMETHODCALLTYPE* get_SharedContext)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs* This,
+        __x_ABI_CWindows_CFoundation_CCollections_CIPropertySet** sharedContext);
+    HRESULT (STDMETHODCALLTYPE* get_ActivationOperation)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs* This,
+        __x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperation** activationOperation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgsVtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgsVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivatedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperation_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperation_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperationVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperation* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperation* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperation* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperation* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperation* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperation* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* Complete)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperation* This,
+        __x_ABI_CWindows_CFoundation_CCollections_CIPropertySet* result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperationVtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperation
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperationVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperation;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CVpn_CIVpnForegroundActivationOperation_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CNetworking_CVpn_CIVpnInterfaceId_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CVpn_CIVpnInterfaceId_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CNetworking_CVpn_CIVpnInterfaceIdVtbl
@@ -4781,6 +4972,40 @@ enum __x_ABI_CWindows_CNetworking_CVpn_CVpnRoutingPolicyType
     
     EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInProfile2;
 #endif /* !defined(____x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInProfile2_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransport_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransport_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransportVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransport* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransport* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransport* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransport* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransport* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransport* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* ReconnectTransport)(__x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransport* This,
+        __x_ABI_CWindows_CNetworking_CVpn_CIVpnChannel* channel,
+        IInspectable* context);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransportVtbl;
+
+    interface __x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransport
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransportVtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransport;
+#endif /* !defined(____x_ABI_CWindows_CNetworking_CVpn_CIVpnPlugInReconnectTransport_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CNetworking_CVpn_CIVpnProfile_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CNetworking_CVpn_CIVpnProfile_INTERFACE_DEFINED__

@@ -150,6 +150,12 @@ typedef interface __x_ABI_CWindows_CSystem_CIDispatcherQueueHandler __x_ABI_CWin
 
 #endif // ____x_ABI_CWindows_CSystem_CIAppUriHandlerHost_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CSystem_CIAppUriHandlerHost2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSystem_CIAppUriHandlerHost2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSystem_CIAppUriHandlerHost2 __x_ABI_CWindows_CSystem_CIAppUriHandlerHost2;
+
+#endif // ____x_ABI_CWindows_CSystem_CIAppUriHandlerHost2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CSystem_CIAppUriHandlerHostFactory_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSystem_CIAppUriHandlerHostFactory_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CSystem_CIAppUriHandlerHostFactory __x_ABI_CWindows_CSystem_CIAppUriHandlerHostFactory;
@@ -162,17 +168,35 @@ typedef interface __x_ABI_CWindows_CSystem_CIDispatcherQueueHandler __x_ABI_CWin
 
 #endif // ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2 __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2;
+
+#endif // ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager;
 
 #endif // ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2 __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2;
+
+#endif // ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics;
 
 #endif // ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2 __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2;
+
+#endif // ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CSystem_CIDateTimeSettingsStatics_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSystem_CIDateTimeSettingsStatics_FWD_DEFINED__
@@ -233,6 +257,12 @@ typedef interface __x_ABI_CWindows_CSystem_CIDispatcherQueueHandler __x_ABI_CWin
     typedef interface __x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics __x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics;
 
 #endif // ____x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2 __x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2;
+
+#endif // ____x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CSystem_CILaunchUriResult_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSystem_CILaunchUriResult_FWD_DEFINED__
@@ -402,6 +432,12 @@ typedef interface __x_ABI_CWindows_CSystem_CIDispatcherQueueHandler __x_ABI_CWin
 
 #endif // ____x_ABI_CWindows_CSystem_CIUser_FWD_DEFINED__
 
+#ifndef ____x_ABI_CWindows_CSystem_CIUser2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSystem_CIUser2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSystem_CIUser2 __x_ABI_CWindows_CSystem_CIUser2;
+
+#endif // ____x_ABI_CWindows_CSystem_CIUser2_FWD_DEFINED__
+
 #ifndef ____x_ABI_CWindows_CSystem_CIUserAuthenticationStatusChangeDeferral_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSystem_CIUserAuthenticationStatusChangeDeferral_FWD_DEFINED__
     typedef interface __x_ABI_CWindows_CSystem_CIUserAuthenticationStatusChangeDeferral __x_ABI_CWindows_CSystem_CIUserAuthenticationStatusChangeDeferral;
@@ -419,6 +455,12 @@ typedef interface __x_ABI_CWindows_CSystem_CIDispatcherQueueHandler __x_ABI_CWin
     typedef interface __x_ABI_CWindows_CSystem_CIUserChangedEventArgs __x_ABI_CWindows_CSystem_CIUserChangedEventArgs;
 
 #endif // ____x_ABI_CWindows_CSystem_CIUserChangedEventArgs_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CSystem_CIUserChangedEventArgs2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSystem_CIUserChangedEventArgs2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSystem_CIUserChangedEventArgs2 __x_ABI_CWindows_CSystem_CIUserChangedEventArgs2;
+
+#endif // ____x_ABI_CWindows_CSystem_CIUserChangedEventArgs2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CSystem_CIUserDeviceAssociationChangedEventArgs_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSystem_CIUserDeviceAssociationChangedEventArgs_FWD_DEFINED__
@@ -449,6 +491,12 @@ typedef interface __x_ABI_CWindows_CSystem_CIDispatcherQueueHandler __x_ABI_CWin
     typedef interface __x_ABI_CWindows_CSystem_CIUserStatics __x_ABI_CWindows_CSystem_CIUserStatics;
 
 #endif // ____x_ABI_CWindows_CSystem_CIUserStatics_FWD_DEFINED__
+
+#ifndef ____x_ABI_CWindows_CSystem_CIUserStatics2_FWD_DEFINED__
+#define ____x_ABI_CWindows_CSystem_CIUserStatics2_FWD_DEFINED__
+    typedef interface __x_ABI_CWindows_CSystem_CIUserStatics2 __x_ABI_CWindows_CSystem_CIUserStatics2;
+
+#endif // ____x_ABI_CWindows_CSystem_CIUserStatics2_FWD_DEFINED__
 
 #ifndef ____x_ABI_CWindows_CSystem_CIUserWatcher_FWD_DEFINED__
 #define ____x_ABI_CWindows_CSystem_CIUserWatcher_FWD_DEFINED__
@@ -2526,6 +2574,84 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows
     
     #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUser_INTERFACE_DEFINED__
     
+typedef enum __x_ABI_CWindows_CSystem_CUserAgeConsentResult __x_ABI_CWindows_CSystem_CUserAgeConsentResult;
+
+typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult;
+
+#if !defined(____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult;
+
+    typedef struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* put_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult* handler);
+    HRESULT (STDMETHODCALLTYPE* get_Completed)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult* This,
+        __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult** result);
+    HRESULT (STDMETHODCALLTYPE* GetResults)(__x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult* This,
+        enum __x_ABI_CWindows_CSystem_CUserAgeConsentResult* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResultVtbl;
+
+    interface __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResultVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult;
+
+    typedef struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUserAgeConsentResultVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult* This);
+        HRESULT (STDMETHODCALLTYPE* Invoke)(__x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult* This,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult* asyncInfo,
+        enum __x_ABI_CWindows_CFoundation_CAsyncStatus asyncStatus);
+
+        END_INTERFACE
+    } __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUserAgeConsentResultVtbl;
+
+    interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult
+    {
+        CONST_VTBL struct __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUserAgeConsentResultVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIIterator_1_HSTRING_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIIterator_1_HSTRING_INTERFACE_DEFINED__
 
@@ -2958,6 +3084,92 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows
     
     #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CDiagnostics__CProcessDiagnosticInfo_INTERFACE_DEFINED__
     
+typedef enum __x_ABI_CWindows_CSystem_CUserWatcherUpdateKind __x_ABI_CWindows_CSystem_CUserWatcherUpdateKind;
+
+#if !defined(____x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind __x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind;
+
+    typedef struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKindVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_Current)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+        enum __x_ABI_CWindows_CSystem_CUserWatcherUpdateKind* result);
+    HRESULT (STDMETHODCALLTYPE* get_HasCurrent)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* MoveNext)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+        UINT32 itemsLength,
+        enum __x_ABI_CWindows_CSystem_CUserWatcherUpdateKind* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKindVtbl;
+
+    interface __x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKindVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind __x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind;
+
+    typedef struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKindVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* First)(__x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+        __x_ABI_C__FIIterator_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind** result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKindVtbl;
+
+    interface __x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind
+    {
+        CONST_VTBL struct __x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKindVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind_INTERFACE_DEFINED__
+    
 #if !defined(____x_ABI_C__FIVectorView_1_HSTRING_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIVectorView_1_HSTRING_INTERFACE_DEFINED__
 
@@ -3207,6 +3419,56 @@ typedef interface __x_ABI_C__FIAsyncOperationCompletedHandler_1___x_ABI_CWindows
 
     
     #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CDiagnostics__CProcessDiagnosticInfo_INTERFACE_DEFINED__
+    
+#if !defined(____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind_INTERFACE_DEFINED__)
+    #define ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind_INTERFACE_DEFINED__
+
+    typedef interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind;
+
+    //  Declare the parameterized interface IID.
+    EXTERN_C const IID IID___x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind;
+
+    typedef struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKindVtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAt)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+        UINT32 index,
+        enum __x_ABI_CWindows_CSystem_CUserWatcherUpdateKind* result);
+    HRESULT (STDMETHODCALLTYPE* get_Size)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+        UINT32* result);
+    HRESULT (STDMETHODCALLTYPE* IndexOf)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+        enum __x_ABI_CWindows_CSystem_CUserWatcherUpdateKind value,
+        UINT32* index,
+        boolean* result);
+    HRESULT (STDMETHODCALLTYPE* GetMany)(__x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind* This,
+        UINT32 startIndex,
+        UINT32 itemsLength,
+        enum __x_ABI_CWindows_CSystem_CUserWatcherUpdateKind* items,
+        UINT32* result);
+
+        END_INTERFACE
+    } __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKindVtbl;
+
+    interface __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind
+    {
+        CONST_VTBL struct __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKindVtbl* lpVtbl;
+    };
+
+    
+    #endif // ____x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind_INTERFACE_DEFINED__
     
 #if !defined(____x_ABI_C__FIVector_1_HSTRING_INTERFACE_DEFINED__)
     #define ____x_ABI_C__FIVector_1_HSTRING_INTERFACE_DEFINED__
@@ -4165,6 +4427,8 @@ typedef enum __x_ABI_CWindows_CSystem_CPowerState __x_ABI_CWindows_CSystem_CPowe
 
 typedef enum __x_ABI_CWindows_CSystem_CShutdownKind __x_ABI_CWindows_CSystem_CShutdownKind;
 
+typedef enum __x_ABI_CWindows_CSystem_CUserAgeConsentGroup __x_ABI_CWindows_CSystem_CUserAgeConsentGroup;
+
 typedef enum __x_ABI_CWindows_CSystem_CUserAuthenticationStatus __x_ABI_CWindows_CSystem_CUserAuthenticationStatus;
 
 typedef enum __x_ABI_CWindows_CSystem_CUserPictureSize __x_ABI_CWindows_CSystem_CUserPictureSize;
@@ -4306,6 +4570,22 @@ enum __x_ABI_CWindows_CSystem_CShutdownKind
     __x_ABI_CWindows_CSystem_CShutdownKind_Restart = 1,
 };
 
+enum __x_ABI_CWindows_CSystem_CUserAgeConsentGroup
+    {
+        __x_ABI_CWindows_CSystem_CUserAgeConsentGroup_Child = 0,
+    __x_ABI_CWindows_CSystem_CUserAgeConsentGroup_Minor = 1,
+    __x_ABI_CWindows_CSystem_CUserAgeConsentGroup_Adult = 2,
+};
+
+enum __x_ABI_CWindows_CSystem_CUserAgeConsentResult
+    {
+        __x_ABI_CWindows_CSystem_CUserAgeConsentResult_NotEnforced = 0,
+    __x_ABI_CWindows_CSystem_CUserAgeConsentResult_Included = 1,
+    __x_ABI_CWindows_CSystem_CUserAgeConsentResult_NotIncluded = 2,
+    __x_ABI_CWindows_CSystem_CUserAgeConsentResult_Unknown = 3,
+    __x_ABI_CWindows_CSystem_CUserAgeConsentResult_Ambiguous = 4,
+};
+
 enum __x_ABI_CWindows_CSystem_CUserAuthenticationStatus
     {
         __x_ABI_CWindows_CSystem_CUserAuthenticationStatus_Unauthenticated = 0,
@@ -4327,6 +4607,7 @@ enum __x_ABI_CWindows_CSystem_CUserType
     __x_ABI_CWindows_CSystem_CUserType_RemoteUser = 1,
     __x_ABI_CWindows_CSystem_CUserType_LocalGuest = 2,
     __x_ABI_CWindows_CSystem_CUserType_RemoteGuest = 3,
+    __x_ABI_CWindows_CSystem_CUserType_SystemManaged = 4,
 };
 
 enum __x_ABI_CWindows_CSystem_CUserWatcherStatus
@@ -4337,6 +4618,12 @@ enum __x_ABI_CWindows_CSystem_CUserWatcherStatus
     __x_ABI_CWindows_CSystem_CUserWatcherStatus_Stopping = 3,
     __x_ABI_CWindows_CSystem_CUserWatcherStatus_Stopped = 4,
     __x_ABI_CWindows_CSystem_CUserWatcherStatus_Aborted = 5,
+};
+
+enum __x_ABI_CWindows_CSystem_CUserWatcherUpdateKind
+    {
+        __x_ABI_CWindows_CSystem_CUserWatcherUpdateKind_Properties = 0,
+    __x_ABI_CWindows_CSystem_CUserWatcherUpdateKind_Picture = 1,
 };
 
 enum __x_ABI_CWindows_CSystem_CVirtualKey
@@ -4359,10 +4646,12 @@ enum __x_ABI_CWindows_CSystem_CVirtualKey
     __x_ABI_CWindows_CSystem_CVirtualKey_CapitalLock = 20,
     __x_ABI_CWindows_CSystem_CVirtualKey_Kana = 21,
     __x_ABI_CWindows_CSystem_CVirtualKey_Hangul = 21,
+    __x_ABI_CWindows_CSystem_CVirtualKey_ImeOn = 22,
     __x_ABI_CWindows_CSystem_CVirtualKey_Junja = 23,
     __x_ABI_CWindows_CSystem_CVirtualKey_Final = 24,
     __x_ABI_CWindows_CSystem_CVirtualKey_Hanja = 25,
     __x_ABI_CWindows_CSystem_CVirtualKey_Kanji = 25,
+    __x_ABI_CWindows_CSystem_CVirtualKey_ImeOff = 26,
     __x_ABI_CWindows_CSystem_CVirtualKey_Escape = 27,
     __x_ABI_CWindows_CSystem_CVirtualKey_Convert = 28,
     __x_ABI_CWindows_CSystem_CVirtualKey_NonConvert = 29,
@@ -5345,6 +5634,41 @@ enum __x_ABI_CWindows_CSystem_CVirtualKeyModifiers
     EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CIAppUriHandlerHost;
 #endif /* !defined(____x_ABI_CWindows_CSystem_CIAppUriHandlerHost_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CSystem_CIAppUriHandlerHost2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSystem_CIAppUriHandlerHost2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSystem_CIAppUriHandlerHost2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSystem_CIAppUriHandlerHost2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSystem_CIAppUriHandlerHost2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSystem_CIAppUriHandlerHost2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSystem_CIAppUriHandlerHost2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSystem_CIAppUriHandlerHost2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSystem_CIAppUriHandlerHost2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_IsEnabled)(__x_ABI_CWindows_CSystem_CIAppUriHandlerHost2* This,
+        boolean* value);
+    HRESULT (STDMETHODCALLTYPE* put_IsEnabled)(__x_ABI_CWindows_CSystem_CIAppUriHandlerHost2* This,
+        boolean value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSystem_CIAppUriHandlerHost2Vtbl;
+
+    interface __x_ABI_CWindows_CSystem_CIAppUriHandlerHost2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSystem_CIAppUriHandlerHost2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CIAppUriHandlerHost2;
+#endif /* !defined(____x_ABI_CWindows_CSystem_CIAppUriHandlerHost2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CSystem_CIAppUriHandlerHostFactory_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSystem_CIAppUriHandlerHostFactory_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CSystem_CIAppUriHandlerHostFactoryVtbl
@@ -5419,6 +5743,43 @@ enum __x_ABI_CWindows_CSystem_CVirtualKeyModifiers
     EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration;
 #endif /* !defined(____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetAllHosts)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2* This,
+        __x_ABI_C__FIVector_1___x_ABI_CWindows__CSystem__CAppUriHandlerHost** result);
+    HRESULT (STDMETHODCALLTYPE* UpdateHosts)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2* This,
+        __x_ABI_C__FIIterable_1___x_ABI_CWindows__CSystem__CAppUriHandlerHost* hosts);
+    HRESULT (STDMETHODCALLTYPE* get_PackageFamilyName)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2* This,
+        HSTRING* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2Vtbl;
+
+    interface __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2;
+#endif /* !defined(____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistration2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerVtbl
@@ -5455,6 +5816,39 @@ enum __x_ABI_CWindows_CSystem_CVirtualKeyModifiers
     EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager;
 #endif /* !defined(____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_PackageFamilyName)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2* This,
+        HSTRING* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2Vtbl;
+
+    interface __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2;
+#endif /* !defined(____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStaticsVtbl
@@ -5490,6 +5884,44 @@ enum __x_ABI_CWindows_CSystem_CVirtualKeyModifiers
     
     EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics;
 #endif /* !defined(____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetForPackage)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2* This,
+        HSTRING packageFamilyName,
+        __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager** result);
+    HRESULT (STDMETHODCALLTYPE* GetForPackageForUser)(__x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2* This,
+        HSTRING packageFamilyName,
+        __x_ABI_CWindows_CSystem_CIUser* user,
+        __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManager** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2;
+#endif /* !defined(____x_ABI_CWindows_CSystem_CIAppUriHandlerRegistrationManagerStatics2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CSystem_CIDateTimeSettingsStatics_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSystem_CIDateTimeSettingsStatics_INTERFACE_DEFINED__
@@ -5870,6 +6302,39 @@ enum __x_ABI_CWindows_CSystem_CVirtualKeyModifiers
     
     EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics;
 #endif /* !defined(____x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_AgeEnforcementRegion)(__x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2* This,
+        HSTRING* value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2;
+#endif /* !defined(____x_ABI_CWindows_CSystem_CIKnownUserPropertiesStatics2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CSystem_CILaunchUriResult_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSystem_CILaunchUriResult_INTERFACE_DEFINED__
@@ -7036,6 +7501,40 @@ enum __x_ABI_CWindows_CSystem_CVirtualKeyModifiers
     EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CIUser;
 #endif /* !defined(____x_ABI_CWindows_CSystem_CIUser_INTERFACE_DEFINED__) */
     
+#if !defined(____x_ABI_CWindows_CSystem_CIUser2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSystem_CIUser2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSystem_CIUser2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSystem_CIUser2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSystem_CIUser2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSystem_CIUser2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSystem_CIUser2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSystem_CIUser2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSystem_CIUser2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* CheckUserAgeConsentGroupAsync)(__x_ABI_CWindows_CSystem_CIUser2* This,
+        enum __x_ABI_CWindows_CSystem_CUserAgeConsentGroup consentGroup,
+        __x_ABI_C__FIAsyncOperation_1___x_ABI_CWindows__CSystem__CUserAgeConsentResult** operation);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSystem_CIUser2Vtbl;
+
+    interface __x_ABI_CWindows_CSystem_CIUser2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSystem_CIUser2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CIUser2;
+#endif /* !defined(____x_ABI_CWindows_CSystem_CIUser2_INTERFACE_DEFINED__) */
+    
 #if !defined(____x_ABI_CWindows_CSystem_CIUserAuthenticationStatusChangeDeferral_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSystem_CIUserAuthenticationStatusChangeDeferral_INTERFACE_DEFINED__
     typedef struct __x_ABI_CWindows_CSystem_CIUserAuthenticationStatusChangeDeferralVtbl
@@ -7139,6 +7638,39 @@ enum __x_ABI_CWindows_CSystem_CVirtualKeyModifiers
     
     EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CIUserChangedEventArgs;
 #endif /* !defined(____x_ABI_CWindows_CSystem_CIUserChangedEventArgs_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSystem_CIUserChangedEventArgs2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSystem_CIUserChangedEventArgs2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSystem_CIUserChangedEventArgs2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSystem_CIUserChangedEventArgs2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSystem_CIUserChangedEventArgs2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSystem_CIUserChangedEventArgs2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSystem_CIUserChangedEventArgs2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSystem_CIUserChangedEventArgs2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSystem_CIUserChangedEventArgs2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* get_ChangedPropertyKinds)(__x_ABI_CWindows_CSystem_CIUserChangedEventArgs2* This,
+        __x_ABI_C__FIVectorView_1___x_ABI_CWindows__CSystem__CUserWatcherUpdateKind** value);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSystem_CIUserChangedEventArgs2Vtbl;
+
+    interface __x_ABI_CWindows_CSystem_CIUserChangedEventArgs2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSystem_CIUserChangedEventArgs2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CIUserChangedEventArgs2;
+#endif /* !defined(____x_ABI_CWindows_CSystem_CIUserChangedEventArgs2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CSystem_CIUserDeviceAssociationChangedEventArgs_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSystem_CIUserDeviceAssociationChangedEventArgs_INTERFACE_DEFINED__
@@ -7334,6 +7866,39 @@ enum __x_ABI_CWindows_CSystem_CVirtualKeyModifiers
     
     EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CIUserStatics;
 #endif /* !defined(____x_ABI_CWindows_CSystem_CIUserStatics_INTERFACE_DEFINED__) */
+    
+#if !defined(____x_ABI_CWindows_CSystem_CIUserStatics2_INTERFACE_DEFINED__)
+    #define ____x_ABI_CWindows_CSystem_CIUserStatics2_INTERFACE_DEFINED__
+    typedef struct __x_ABI_CWindows_CSystem_CIUserStatics2Vtbl
+    {
+        BEGIN_INTERFACE
+
+        HRESULT (STDMETHODCALLTYPE* QueryInterface)(__x_ABI_CWindows_CSystem_CIUserStatics2* This,
+            REFIID riid,
+            void** ppvObject);
+        ULONG (STDMETHODCALLTYPE* AddRef)(__x_ABI_CWindows_CSystem_CIUserStatics2* This);
+        ULONG (STDMETHODCALLTYPE* Release)(__x_ABI_CWindows_CSystem_CIUserStatics2* This);
+        HRESULT (STDMETHODCALLTYPE* GetIids)(__x_ABI_CWindows_CSystem_CIUserStatics2* This,
+            ULONG* iidCount,
+            IID** iids);
+        HRESULT (STDMETHODCALLTYPE* GetRuntimeClassName)(__x_ABI_CWindows_CSystem_CIUserStatics2* This,
+            HSTRING* className);
+        HRESULT (STDMETHODCALLTYPE* GetTrustLevel)(__x_ABI_CWindows_CSystem_CIUserStatics2* This,
+            TrustLevel* trustLevel);
+        HRESULT (STDMETHODCALLTYPE* GetDefault)(__x_ABI_CWindows_CSystem_CIUserStatics2* This,
+        __x_ABI_CWindows_CSystem_CIUser** result);
+
+        END_INTERFACE
+    } __x_ABI_CWindows_CSystem_CIUserStatics2Vtbl;
+
+    interface __x_ABI_CWindows_CSystem_CIUserStatics2
+    {
+        CONST_VTBL struct __x_ABI_CWindows_CSystem_CIUserStatics2Vtbl* lpVtbl;
+    };
+
+    
+    EXTERN_C const IID IID___x_ABI_CWindows_CSystem_CIUserStatics2;
+#endif /* !defined(____x_ABI_CWindows_CSystem_CIUserStatics2_INTERFACE_DEFINED__) */
     
 #if !defined(____x_ABI_CWindows_CSystem_CIUserWatcher_INTERFACE_DEFINED__)
     #define ____x_ABI_CWindows_CSystem_CIUserWatcher_INTERFACE_DEFINED__
