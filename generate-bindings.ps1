@@ -1,3 +1,7 @@
+param(
+    [string]$SwiftWinRTExecutable = $null
+)
+
 function Get-SwiftWinRTVersion {
     $Projections = Get-Content -Path $PSScriptRoot\projections.json | ConvertFrom-Json
     return $Projections."swift-winrt"
@@ -42,19 +46,20 @@ function Restore-Nuget {
     $PackagesConfigPath = Join-Path $PSScriptRoot ".packages\packages.config"
     $PackagesConfigContent | Out-File -FilePath $PackagesConfigPath -Encoding ascii
 
-    & $NugetDownloadPath restore $PackagesConfigPath -PackagesDirectory $PackagesDir
+    & $NugetDownloadPath restore $PackagesConfigPath -PackagesDirectory $PackagesDir | Out-Null
     if ($LASTEXITCODE -ne 0) {
         exit 1
     }
 }
 
-function Get-WinMDInputs() {
+function Get-WinMDInputs {
     param(
-        $Package
+        $Package,
+        $PackagesDir
     )
     $Id = $Package.Id
     $Version = $Package.Version
-    return Get-ChildItem -Path $PackagesDir\$Id.$Version\ -Filter *.winmd -Recurse
+    return Get-ChildItem -Path "$PackagesDir\$Id.$Version\" -Filter *.winmd -Recurse
 }
 
 function Copy-Project {
@@ -70,14 +75,14 @@ function Copy-Project {
         if (Test-Path $ProjectDir) {
             Remove-Item -Path $ProjectDir -Recurse -Force
         }
-        Copy-Item -Path $OutputLocation\Sources\$ProjectName -Destination $ProjectDir -Recurse -Force
+        Copy-Item -Path "$OutputLocation\Sources\$ProjectName" -Destination $ProjectDir -Recurse -Force
     }
 }
 
-
-function Invoke-SwiftWinRT() {
+function Invoke-SwiftWinRT {
     param(
-        [string]$PackagesDir
+        [string]$PackagesDir,
+        [string]$SwiftWinRTExecutable
     )
     $Projections = Get-Content -Path $PSScriptRoot\projections.json | ConvertFrom-Json
 
@@ -88,7 +93,7 @@ function Invoke-SwiftWinRT() {
         Remove-Item -Path $OutputLocation -Recurse -Force
     }
 
-    $RspParams = "-output $OutputLocation`n"
+    $RspParams = "-output `"$OutputLocation`"`n"
 
     # read projections.json and for each "include" write to -include param. for each "exclude" write to -exclude param
     $Projections.Include | ForEach-Object {
@@ -99,25 +104,37 @@ function Invoke-SwiftWinRT() {
     }
 
     if ($Projections.Package) {
-        Get-WinMDInputs -Package $Package | ForEach-Object {
-            $RspParams += "-input $($_.FullName)`n"
+        Get-WinMDInputs -Package $Projections.Package -PackagesDir $PackagesDir | ForEach-Object {
+            $RspParams += "-input `"$($_.FullName)`"`n"
         }
     }
 
     $Projections.Packages | ForEach-Object {
-        Get-WinMDInputs -Package $Package | ForEach-Object {
-            $RspParams += "-input $($_.FullName)`n"
+        Get-WinMDInputs -Package $_ -PackagesDir $PackagesDir | ForEach-Object {
+            $RspParams += "-input `"$($_.FullName)`"`n"
         }
     }
+
     $Projections.Dependencies | ForEach-Object {
-        Get-WinMDInputs -Package $Package | ForEach-Object {
-            $RspParams += "-input $($_.FullName)`n"
+        Get-WinMDInputs -Package $_ -PackagesDir $PackagesDir | ForEach-Object {
+            $RspParams += "-input `"$($_.FullName)`"`n"
         }
     }
-    # write rsp params to file
+
     $RspFile = Join-Path $PSScriptRoot "swift-winrt.rsp"
     $RspParams | Out-File -FilePath $RspFile -Encoding ascii
-    & $PackagesDir\TheBrowserCompany.SwiftWinRT.$SwiftWinRTVersion\bin\swiftwinrt.exe "@$RspFile"
+
+    # Default path fallback
+    if (-not $SwiftWinRTExecutable) {
+        $SwiftWinRTExecutable = Join-Path $PackagesDir "TheBrowserCompany.SwiftWinRT.$SwiftWinRTVersion\bin\swiftwinrt.exe"
+    }
+
+    if (-not (Test-Path $SwiftWinRTExecutable)) {
+        Write-Host "SwiftWinRT executable not found at $SwiftWinRTExecutable" -ForegroundColor Red
+        exit 1
+    }
+
+    & $SwiftWinRTExecutable "@$RspFile"
 
     if ($LASTEXITCODE -ne 0) {
         Write-Host "swiftwinrt failed with error code $LASTEXITCODE" -ForegroundColor Red
@@ -135,5 +152,5 @@ function Invoke-SwiftWinRT() {
 
 $PackagesDir = Join-Path $PSScriptRoot ".packages"
 Restore-Nuget -PackagesDir $PackagesDir
-Invoke-SwiftWinRT -PackagesDir $PackagesDir
+Invoke-SwiftWinRT -PackagesDir $PackagesDir -SwiftWinRTExecutable $SwiftWinRTExecutable
 Write-Host "SwiftWinRT bindings generated successfully!" -ForegroundColor Green
